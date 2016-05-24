@@ -2,11 +2,17 @@
 #include <stdlib.h>
 #include <stdio.h>	
 
-int main ()
+int main (int argc, char** argv)
 {
+	if(argc != 3 )
+	{
+		printf("usage :: ./read <file_in> <file_out>\n");
+		exit(EXIT_FAILURE);
+	}
+		
 //~~~~~~~~~~ ouverture fichier entree ~~~~~~~~~~//
 	FILE* file_in = NULL;
-	file_in = fopen("mylog.txt", "r");
+	file_in = fopen(argv[1], "r+");
 	if(file_in == NULL)
 	{
 		printf("fatal error :: cannot open input file\n");
@@ -17,7 +23,7 @@ int main ()
 
 //~~~~~~~~~~ ouverture fichier sortie ~~~~~~~~~~//
 	FILE* file_out = NULL;
-	file_out = fopen("result.txt", "w+");
+	file_out = fopen(argv[2], "w+");
 	if(file_out == NULL)
 	{
 		printf("fatal error :: cannot open output file\n");
