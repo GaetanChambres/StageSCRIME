@@ -1,0 +1,440 @@
+EVENT 1
+Date = 1463760208.007000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 1608.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 2
+Date = 1463760208.119000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1209.000000; Sensor3 = 2233.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 3
+Date = 1463760208.122000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1209.000000; Sensor3 = 2233.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 4
+Date = 1463760208.220000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1836.000000; Sensor3 = 2255.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 5
+Date = 1463760208.223000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1836.000000; Sensor3 = 2255.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 6
+Date = 1463760208.320000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2137.000000; Sensor3 = 2105.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 7
+Date = 1463760208.324000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2137.000000; Sensor3 = 2105.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 8
+Date = 1463760208.421000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1780.000000; Sensor3 = 2041.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 9
+Date = 1463760208.425000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1780.000000; Sensor3 = 2041.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 10
+Date = 1463760208.521000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1202.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 11
+Date = 1463760208.623000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 1839.000000; Sensor2 = 2648.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 12
+Date = 1463760208.627000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 1839.000000; Sensor2 = 2648.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 13
+Date = 1463760208.722000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 1274.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 14
+Date = 1463760208.833000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 3057.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 15
+Date = 1463760208.935000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1549.000000; Sensor1 = 2413.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 16
+Date = 1463760208.939000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1549.000000; Sensor1 = 2413.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 17
+Date = 1463760209.036000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 3126.000000; Sensor1 = 1802.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 18
+Date = 1463760209.039000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 3126.000000; Sensor1 = 1802.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 19
+Date = 1463760209.137000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2907.000000; Sensor1 = 2285.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 20
+Date = 1463760209.140000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2907.000000; Sensor1 = 2285.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 21
+Date = 1463760209.238000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2548.000000; Sensor1 = 2149.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 22
+Date = 1463760209.241000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2548.000000; Sensor1 = 2149.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 23
+Date = 1463760209.339000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2017.000000; Sensor1 = 2447.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 24
+Date = 1463760209.342000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2017.000000; Sensor1 = 2447.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 25
+Date = 1463760209.450000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2367.000000; Sensor2 = 1544.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 26
+Date = 1463760209.453000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2367.000000; Sensor2 = 1544.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 27
+Date = 1463760209.552000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2543.000000; Sensor2 = 2726.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2827.000000;
+
+
+EVENT 28
+Date = 1463760209.555000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2543.000000; Sensor2 = 2726.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2827.000000;
+
+
+EVENT 29
+Date = 1463760209.559000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2543.000000; Sensor2 = 2726.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2827.000000;
+
+
+EVENT 30
+Date = 1463760209.653000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2043.000000; Sensor2 = 1776.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2235.000000;
+
+
+EVENT 31
+Date = 1463760209.656000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2043.000000; Sensor2 = 1776.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2235.000000;
+
+
+EVENT 32
+Date = 1463760209.659000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2043.000000; Sensor2 = 1776.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2235.000000;
+
+
+EVENT 33
+Date = 1463760209.755000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2425.000000; Sensor3 = 1529.000000; Sensor4 = 0.000000; Sensor5 = 1422.000000; Sensor6 = 1799.000000;
+
+
+EVENT 34
+Date = 1463760209.758000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2425.000000; Sensor3 = 1529.000000; Sensor4 = 0.000000; Sensor5 = 1422.000000; Sensor6 = 1799.000000;
+
+
+EVENT 35
+Date = 1463760209.762000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2425.000000; Sensor3 = 1529.000000; Sensor4 = 0.000000; Sensor5 = 1422.000000; Sensor6 = 1799.000000;
+
+
+EVENT 36
+Date = 1463760209.765000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2425.000000; Sensor3 = 1529.000000; Sensor4 = 0.000000; Sensor5 = 1422.000000; Sensor6 = 1799.000000;
+
+
+EVENT 37
+Date = 1463760209.856000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2852.000000; Sensor3 = 2178.000000; Sensor4 = 0.000000; Sensor5 = 2071.000000; Sensor6 = 2161.000000;
+
+
+EVENT 38
+Date = 1463760209.859000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2852.000000; Sensor3 = 2178.000000; Sensor4 = 0.000000; Sensor5 = 2071.000000; Sensor6 = 2161.000000;
+
+
+EVENT 39
+Date = 1463760209.862000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2852.000000; Sensor3 = 2178.000000; Sensor4 = 0.000000; Sensor5 = 2071.000000; Sensor6 = 2161.000000;
+
+
+EVENT 40
+Date = 1463760209.866000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2852.000000; Sensor3 = 2178.000000; Sensor4 = 0.000000; Sensor5 = 2071.000000; Sensor6 = 2161.000000;
+
+
+EVENT 41
+Date = 1463760209.957000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1550.000000; Sensor3 = 1565.000000; Sensor4 = 0.000000; Sensor5 = 2876.000000; Sensor6 = 2615.000000;
+
+
+EVENT 42
+Date = 1463760209.960000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1550.000000; Sensor3 = 1565.000000; Sensor4 = 0.000000; Sensor5 = 2876.000000; Sensor6 = 2615.000000;
+
+
+EVENT 43
+Date = 1463760209.963000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1550.000000; Sensor3 = 1565.000000; Sensor4 = 0.000000; Sensor5 = 2876.000000; Sensor6 = 2615.000000;
+
+
+EVENT 44
+Date = 1463760209.966000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 1550.000000; Sensor3 = 1565.000000; Sensor4 = 0.000000; Sensor5 = 2876.000000; Sensor6 = 2615.000000;
+
+
+EVENT 45
+Date = 1463760210.064000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 3739.000000; Sensor6 = 3206.000000;
+
+
+EVENT 46
+Date = 1463760210.068000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 3739.000000; Sensor6 = 3206.000000;
+
+
+EVENT 47
+Date = 1463760210.165000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 4266.000000; Sensor6 = 3802.000000;
+
+
+EVENT 48
+Date = 1463760210.169000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 4266.000000; Sensor6 = 3802.000000;
+
+
+EVENT 49
+Date = 1463760210.266000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 4269.000000; Sensor6 = 4461.000000;
+
+
+EVENT 50
+Date = 1463760210.269000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 4269.000000; Sensor6 = 4461.000000;
+
+
+EVENT 51
+Date = 1463760210.367000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 3874.000000; Sensor6 = 4053.000000;
+
+
+EVENT 52
+Date = 1463760210.370000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 3874.000000; Sensor6 = 4053.000000;
+
+
+EVENT 53
+Date = 1463760210.468000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 2936.000000; Sensor6 = 4171.000000;
+
+
+EVENT 54
+Date = 1463760210.471000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 2936.000000; Sensor6 = 4171.000000;
+
+
+EVENT 55
+Date = 1463760210.567000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 2054.000000; Sensor6 = 0.000000;
+
+
+EVENT 56
+Date = 1463760210.668000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 1841.000000; Sensor6 = 0.000000;
+
+
+EVENT 57
+Date = 1463760210.880000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2735.000000;
+
+
+EVENT 58
+Date = 1463760210.980000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 4569.000000;
+
+
+EVENT 59
+Date = 1463760211.081000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1759.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 60
+Date = 1463760211.182000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2108.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 61
+Date = 1463760211.286000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2643.000000; Sensor1 = 2550.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2870.000000;
+
+
+EVENT 62
+Date = 1463760211.289000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2643.000000; Sensor1 = 2550.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2870.000000;
+
+
+EVENT 63
+Date = 1463760211.293000 ; NbThymio = 52936.000000 ; NbEvent = 6.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2643.000000; Sensor1 = 2550.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 2870.000000;
+
+
+EVENT 64
+Date = 1463760211.395000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2069.000000; Sensor2 = 2927.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 65
+Date = 1463760211.398000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 2069.000000; Sensor2 = 2927.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 66
+Date = 1463760211.496000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2461.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 3491.000000; Sensor6 = 0.000000;
+
+
+EVENT 67
+Date = 1463760211.499000 ; NbThymio = 52936.000000 ; NbEvent = 5.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2461.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 3491.000000; Sensor6 = 0.000000;
+
+
+EVENT 68
+Date = 1463760211.595000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2522.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 69
+Date = 1463760211.801000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1901.000000; Sensor1 = 0.000000; Sensor2 = 1708.000000; Sensor3 = 1541.000000; Sensor4 = 2400.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 70
+Date = 1463760211.805000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1901.000000; Sensor1 = 0.000000; Sensor2 = 1708.000000; Sensor3 = 1541.000000; Sensor4 = 2400.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 71
+Date = 1463760211.808000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1901.000000; Sensor1 = 0.000000; Sensor2 = 1708.000000; Sensor3 = 1541.000000; Sensor4 = 2400.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 72
+Date = 1463760211.811000 ; NbThymio = 52936.000000 ; NbEvent = 4.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1901.000000; Sensor1 = 0.000000; Sensor2 = 1708.000000; Sensor3 = 1541.000000; Sensor4 = 2400.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 73
+Date = 1463760211.902000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2970.000000; Sensor1 = 0.000000; Sensor2 = 2255.000000; Sensor3 = 2783.000000; Sensor4 = 1642.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 74
+Date = 1463760211.906000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2970.000000; Sensor1 = 0.000000; Sensor2 = 2255.000000; Sensor3 = 2783.000000; Sensor4 = 1642.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 75
+Date = 1463760211.909000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2970.000000; Sensor1 = 0.000000; Sensor2 = 2255.000000; Sensor3 = 2783.000000; Sensor4 = 1642.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 76
+Date = 1463760211.912000 ; NbThymio = 52936.000000 ; NbEvent = 4.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2970.000000; Sensor1 = 0.000000; Sensor2 = 2255.000000; Sensor3 = 2783.000000; Sensor4 = 1642.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 77
+Date = 1463760212.010000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2058.000000; Sensor3 = 3080.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 78
+Date = 1463760212.013000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 0.000000; Sensor2 = 2058.000000; Sensor3 = 3080.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 79
+Date = 1463760212.112000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 1894.000000; Sensor2 = 2005.000000; Sensor3 = 1984.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 80
+Date = 1463760212.116000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 1894.000000; Sensor2 = 2005.000000; Sensor3 = 1984.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 81
+Date = 1463760212.119000 ; NbThymio = 52936.000000 ; NbEvent = 3.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 1894.000000; Sensor2 = 2005.000000; Sensor3 = 1984.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 82
+Date = 1463760212.212000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 1426.000000; Sensor2 = 3727.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 83
+Date = 1463760212.215000 ; NbThymio = 52936.000000 ; NbEvent = 2.000000 ; NbArgEvent = 7.000000
+Sensor0 = 0.000000; Sensor1 = 1426.000000; Sensor2 = 3727.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 84
+Date = 1463760212.313000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1468.000000; Sensor1 = 2840.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 85
+Date = 1463760212.316000 ; NbThymio = 52936.000000 ; NbEvent = 1.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1468.000000; Sensor1 = 2840.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 86
+Date = 1463760212.412000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 2393.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 87
+Date = 1463760212.513000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1722.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+
+EVENT 88
+Date = 1463760212.513000 ; NbThymio = 52936.000000 ; NbEvent = 0.000000 ; NbArgEvent = 7.000000
+Sensor0 = 1722.000000; Sensor1 = 0.000000; Sensor2 = 0.000000; Sensor3 = 0.000000; Sensor4 = 0.000000; Sensor5 = 0.000000; Sensor6 = 0.000000;
+
+

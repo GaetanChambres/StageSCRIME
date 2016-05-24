@@ -1,0 +1,79 @@
+<!DOCTYPE aesl-source>
+<network>
+
+
+<!--list of global events-->
+<event size="7" name="capteur0_ON"/>
+<event size="7" name="capteur1_ON"/>
+<event size="7" name="capteur2_ON"/>
+<event size="7" name="capteur3_ON"/>
+<event size="7" name="capteur4_ON"/>
+<event size="7" name="capteur5_ON"/>
+<event size="7" name="capteur6_ON"/>
+
+
+<!--list of constants-->
+
+
+<!--show keywords state-->
+<keywords flag="true"/>
+
+
+<!--node thymio-II-->
+<node nodeId="52936" name="thymio-II">onevent prox
+######### Gestion stimulation capteur 0 #########
+	# si capteur 0 stimulé,
+	if prox.horizontal[0] > 100 then
+		#montrer position du capteur
+		call leds.circle(0,0,0,0,0,0,1,0)
+		#envoyer évènement
+		emit capteur0_ON(prox.horizontal)
+	end
+	
+######### Gestion stimulation capteur 1 #########
+	if prox.horizontal[1] > 100 then
+		call leds.circle(0,0,0,0,0,0,0,1)
+		emit capteur1_ON(prox.horizontal)
+	end
+
+######### Gestion stimulation capteur 2 #########	
+	if prox.horizontal[2] > 100 then
+		call leds.circle(1,0,0,0,0,0,0,0)
+		emit capteur2_ON(prox.horizontal)
+	end
+
+######### Gestion stimulation capteur 3 #########
+	if prox.horizontal[3] > 100 then
+		call leds.circle(0,1,0,0,0,0,0,0)
+		emit capteur3_ON(prox.horizontal)
+	end
+	
+######### Gestion stimulation capteur 4 #########
+	if prox.horizontal[4] > 100 then
+		call leds.circle(0,0,1,0,0,0,0,0)
+		emit capteur4_ON(prox.horizontal)
+	end
+
+######### Gestion stimulation capteur 5 #########
+	if prox.horizontal[5] > 100 then
+		call leds.circle(0,0,0,0,1,1,0,0)
+		emit capteur5_ON(prox.horizontal)
+	end
+	
+######### Gestion stimulation capteur 6 #########
+	if prox.horizontal[6] > 100 then
+		call leds.circle(0,0,0,1,1,0,0,0)
+		emit capteur6_ON(prox.horizontal)
+	end
+	
+######### Gestion de l'affichage via LEDs #########
+	if prox.horizontal[0] &lt; 100 and prox.horizontal[1] &lt; 100
+	and prox.horizontal[2] &lt; 100 and prox.horizontal[3] &lt; 100 
+	and prox.horizontal[4] &lt; 100 and prox.horizontal[5] &lt; 100 
+	and prox.horizontal[6] &lt; 100 then
+		call leds.circle(0,0,0,0,0,0,0,0)
+	end
+	</node>
+
+
+</network>
