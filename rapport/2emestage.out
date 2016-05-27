@@ -1,0 +1,41 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Domaine du Stage}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Le SCRIME scrime2015}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Les missions du SCRIME scrime2015}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{L'\351quipe du SCRIME scrime2015}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Le contexte du stage}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{Pourquoi ce projet?}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Les objectifs du stage}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Contenu du rapport}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Le Robot Thymio}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Pr\351sentation thymio2016}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{Philosophie d'un projet collaboratifthymio2016}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Les diff\351rents acteurs du projet thymio2016}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Les engagements de la soci\351t\351 cr\351atrice thymio2016}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Thymio et le son thymio2016}{}% 15
+\BOOKMARK [1][-]{section.3.1}{D\351tection de l'intensit\351 du son}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Son de synth\350se}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{Modification de l'onde primaire}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{Enregistrement}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.5}{Relecture}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.6}{Cr\351ation de son depuis un ordinateur}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.6.1}{Son syst\350me}{section.3.6}% 22
+\BOOKMARK [2][-]{subsection.3.6.2}{Biblioth\350que de son syst\350me}{section.3.6}% 23
+\BOOKMARK [0][-]{chapter.4}{Les outils informatiques utilis\351s}{}% 24
+\BOOKMARK [1][-]{section.4.1}{Qu'est-ce qu'Aseba?thymio2016}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{Le langage de Thymio: ASEBA thymio2016}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{R\351cup\351rer les \351v\351nements}{}% 27
+\BOOKMARK [1][-]{section.5.1}{Le transfert d'information entre Thymio et un ordinateur}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{La communication locale}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.3}{Le mapping des capteurs}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.3.1}{Les boutons thymio2016}{section.5.3}% 31
+\BOOKMARK [2][-]{subsection.5.3.2}{Les capteurs de distance horizontaux}{section.5.3}% 32
+\BOOKMARK [0][-]{chapter.6}{Extraire l'\351v\351nement de Thymio}{}% 33
+\BOOKMARK [1][-]{section.6.1}{Aseba exec}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.2}{Aseba dump}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.3}{script avec inscription dans un fichier}{chapter.6}% 36
+\BOOKMARK [0][-]{chapter.7}{Bilan}{}% 37
+\BOOKMARK [1][-]{section.7.1}{Apports du stage}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.2}{Conclusion}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.3}{Perspective}{chapter.7}% 40
+\BOOKMARK [0][-]{chapter.8}{Annexe}{}% 41
