@@ -193,36 +193,41 @@ Pour suivre cette philosophie basée sur la collaboration et les sources ouverte
 Afin de permettre une production et un distribution à grande échelle, une association à but non lucratif a été crée, Mobsya. L'association assure la production du matériel. Pour le logiciel, elle contribue à la maintenance et au développement en collaboration avec les autres partenaires. L'association gère aussi l'infrastructure qui permet de créer une communauté d'utilisateurs, qui peuvent s'entraider grâce à des listes de discussion et un site de partage d'information qui contient la documentation, des exemples de réalisation, du support technique, etc. Cette infrastructure aura également aidé durant ce stage.
 
 \chapter{Thymio et le son \cite{thymio2016}}
-\section{Détection de l'intensité du son}
-Le Thymio peut détecter lorsque le bruit ambiant est au-dessus d'une intensité donnée et émet un événement.\\
-La variable mic.intensity montre l'intensité du microphone en cours, tandis que la variable mic.threshold contient la limite de l'intensité pour l'événement. Si mic.intensity est au-dessus de mic.threshold , l'événement mic est généré.
+\section{Les fonctionnalités natives de Thymio}
+Le robot Thymio est déjà conçu pour une intéraction basée sur le son. C'est possible entre autre grâce à la présence d'un micro et d'un haut-parleur, mais aussi grâce au slot micro-SD. Seulement les possibilité sont limitées.
 Lecture et enregistrement de sons.\\
-Vous pouvez jouer des sons de synthèse ou du système. De plus, si vous avez installé une carte micro-SD formatée FAT dans le robot, il est possible d'enregistrer et de jouer vos propres sons. Les fichiers sont stockés sur la carte micro-SD au format wave, 8-bit non-signé, 8 kHz. Lorsque Thymio fini la lecture d'un son demandée par ASEBA, il déclenche l'événement sound.finished . Il ne se déclenche pas un événement si la lecture est interrompue ou si un nouveau son est joué.\\
-\section{Son de synthèse}
-La fonction native sound.freq joue une fréquence, spécifiée en Hz, pour une certaine durée, spécifié dans 1/60 s. Une durée égale à 0 joue le son à l'infini et une durée de -1 arrête le son.
-\section{Modification de l'onde primaire}
-La génération de sons de synthèse fonctionne par ré-échantillonnage d'une onde primaire. Par défaut, l'onde est triangulaire, mais vous pouvez définir votre propre onde à l'aide de la fonction native sound.wave. Cette fonction prend en entrée un tableau de 142 échantillons, avec des valeurs de -128 à 127. Ce tableau doit représenter une onde tonique de la fréquence spécifiée dans sound.freq. Comme Thymio joue des sons à 7812,5 Hz, ce tableau est joué entièrement à la fréquence de 7812.5/142 = ~ 55 Hz. Jouer un son de fréquences plus élevées fait sauter des échantillons dans le tableau.
-\section{Enregistrement}
-Vous pouvez enregistrer des sons en utilisant la fonction native sound.record qui prend en paramètre un numéro d'enregistrement de 0 à 32767. Le fichier est stocké sur la carte micro-SD sous le nom Rx.wav où x est le paramètre passé à la fonction sound.record. Pour arrêter un enregistrement, appelez la fonction sound.record avec la valeur -1.
-\section{Relecture}
-Vous pouvez rejouer un son enregistré en utilisant la fonction native sound.replay . Cette fonction prend en paramètre un nombre de 0 à 32767 et rejouer le fichier Rx.wav de la carte SD où x est le paramètre passé à la fonction sound.replay . Pour arrêter une lecture, veuillez appeler la fonction sound.replay avec une valeur de -1.
+
+\subsection{Intensité sonore ambiante}
+Le robot peut détecter lorsque le bruit ambiant est au-dessus d'une intensité donnée. C'est possible, grâce à la variable mic.intensity qui donne l'intensité du microphone embarqué ou encore grâce à la variable mic.threshold qui contient la limite de l'intensité pour l'événement. Un évènement est alors généré si mic.intensity est au-dessus de mic.threshold.\\
+
+\subsection{La synthèse sonore de Thymio}
+Le langage Aseba possède fonction native "sound.freq" qui joue une fréquence, spécifiée en Hz, pour une certaine durée, spécifié dans 1/60 s. Une durée égale à 0 joue le son à l'infini et une durée de -1 arrête le son.\\
+La génération de sons de synthèse fonctionne par ré-échantillonnage d'une onde primaire. Par défaut, l'onde est triangulaire, mais il est possible de la	définir à l'aide de la fonction native "sound.wave". Cette fonction prend en entrée un tableau de 142 échantillons, avec des valeurs de -128 à 127. Ce tableau doit représenter une onde tonique de la fréquence spécifiée dans sound.freq.\\
+ Comme Thymio joue des sons à 7812,5 Hz, ce tableau est joué entièrement à la fréquence de 7812.5/142 = ~ 55 Hz. Jouer un son de fréquences plus élevées fait sauter des échantillons dans le tableau.
+
+\subsection{Enregistrement et relecture}
+Il est aussi possible d'enregistrer des sons en utilisant la fonction native "sound.record" qui prend en paramètre un numéro d'enregistrement de 0 à 32767. Le fichier est stocké sur la carte micro-SD sous le nom Rx.wav où x est le paramètre passé à la fonction sound.record. Pour arrêter un enregistrement, il faut appeler la fonction sound.record avec la valeur -1.\\
+On peut également rejouer un son enregistré en utilisant la fonction native sound.replay . Cette fonction prend en paramètre un nombre de 0 à 32767 et rejouer le fichier Rx.wav de la carte SD où x est le paramètre passé à la fonction sound.replay. Pour arrêter une lecture, il faut appeler la fonction sound.replay avec une valeur de -1.
+
+\subsection{Utilisation de "Sample"}
+Il est également possible de jouer d'autres sons que les sons simples générés par synthèse ou les sons système. En utilisant une carte micro-SD formatée FAT, il est possible d'enregistrer et de jouer des "samples", des morceaux de musique pré-enregistrés. Les fichiers doivent cependant être stockés sur la carte micro-SD au format wave, 8-bit non-signé, 8 kHz. Lorsque le robot fini la lecture d'un son demandée par ASEBA, il déclenche l'événement sound.finished . Il ne se déclenche pas d'événement si la lecture est interrompue ou si un nouveau son est joué.\\
+
 \section{Création de son depuis un ordinateur}
-Vous pouvez créer des sons pour le Thymio II depuis votre ordinateur. La façon plus efficiace de le faire est d'utiliser le logiciel audacity, version 1.3, qui existe pour les différents OS. Voici la démarche pour créer un son compatible avec Thymio II :\\
+Voici la démarche, selon les créateurs de Thymio, pour créer, à l'aide du logiciel Audacity, un son compatible avec Thymio II qui puisse être joué:\\
 \begin{itemize}
-\item Une fois démarré audacity, changez le project rate situé en bas à gauche de 44100 Hz (défaut) à 8000 Hz.
-\item Enregistrez votre son avec la touche record rouge en haut à gauche. Vous devez voir le curseur avancer et la forme d'onde se visualiser. Stoppez une fois fini avec le bouton stop.
-\item Votre son doit être en mono (Piste->Piste stéréo vers mono)
-\item Allez sur le menu File sous Export…
-\item Donnez un nom de ficher, par exemple P0.wav pour le premier ficher à jouer en utilisant la fonction native sound.play.
-\item Choisissez comme format: other uncompressed files
-\item Sous options choisissez un header WAV (Microsoft) et comme Encoding choisissez Unsigned 8 bit PCM.
-\item Assurez que le métadonnées de le ficher ne sont pas valorisé.
-\item Sauvez ou copiez le ficher sur une carte micro-SD.
+\item Une fois démarré audacity, changer le "project rate" situé en bas à gauche de 44100 Hz (défaut) à 8000 Hz.
+\item Enregistrer le son avec la touche record rouge en haut à gauche. Le curseur doit avancer et la forme d'onde se visualiser. Stopper une fois fini avec le bouton stop.
+\item Le son doit être en mono (Piste->Piste stéréo vers mono)
+\item Aller sur le menu File sous Export…
+\item Donner un nom de ficher.
+\item Choisir comme format: other uncompressed files.
+\item Sous "options" choisir un header WAV (Microsoft) et comme "Encoding" choisir Unsigned 8 bit PCM.
+\item Sauver ou copier le ficher sur une carte micro-SD.
 \end{itemize}
-Pour faire un test rapide vous pouvez sauver ou copier ce ficher sous le nom de S0.wav. Il sera joué au démarrage du Thymio II.\\
-Vous pouvez jouer des sons en utilisant la fonction native sound.play qui prend en paramètre un numéro d'enregistrement de 0 à 32767. Le fichier doit être stocké sur la carte micro-SD sous le nom Px.wav où x est le paramètre passé à la fonction sound.play. Pour arrêter de jouer un son, appelez la fonction sound.play avec la valeur -1.
-\subsection{Son système}
-Vous pouvez jouer un son système à l'aide de la fonction native sound.system , qui prend un nombre de 0 à 32767 en tant que paramètre. Certains sons sont disponibles dans le firmware (voir ci-dessous), mais vous pouvez remplacer ces sons et ajouter de nouveaux en utilisant la carte micro-SD. Dans ce cas, le fichier doit être nommé Sx.wav où x est le paramètre passé à la fonction sound.system . Pour arrêter la lecture d'un son, appelez la fonction sound.system avec la valeur -1.
+
+\subsection{Sons système}
+Vous pouvez jouer un ou des sons système à l'aide de la fonction native sound.system , qui prend un nombre de 0 à 32767 en tant que paramètre. Certains sons sont disponibles dans le firmware (voir ci-dessous), mais on peut remplacer ces sons et en ajouter de nouveaux en utilisant la carte micro-SD. Pour arrêter la lecture d'un son, appelez la fonction sound.system avec la valeur -1.
+
 \subsection{Bibliothèque de son système}
 Les sons suivant sont disponibles :\\
 paramètre 	description\\

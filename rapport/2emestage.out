@@ -13,14 +13,14 @@
 \BOOKMARK [1][-]{section.2.3}{Les diff\351rents acteurs du projet thymio2016}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.4}{Les engagements de la soci\351t\351 cr\351atrice thymio2016}{chapter.2}% 14
 \BOOKMARK [0][-]{chapter.3}{Thymio et le son thymio2016}{}% 15
-\BOOKMARK [1][-]{section.3.1}{D\351tection de l'intensit\351 du son}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Son de synth\350se}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.3}{Modification de l'onde primaire}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.4}{Enregistrement}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.5}{Relecture}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.6}{Cr\351ation de son depuis un ordinateur}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.6.1}{Son syst\350me}{section.3.6}% 22
-\BOOKMARK [2][-]{subsection.3.6.2}{Biblioth\350que de son syst\350me}{section.3.6}% 23
+\BOOKMARK [1][-]{section.3.1}{Les fonctionnalit\351s natives de Thymio}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.1.1}{Intensit\351 sonore ambiante}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.2}{La synth\350se sonore de Thymio}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.3}{Enregistrement et relecture}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.4}{Utilisation de "Sample"}{section.3.1}% 20
+\BOOKMARK [1][-]{section.3.2}{Cr\351ation de son depuis un ordinateur}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.2.1}{Sons syst\350me}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.2}{Biblioth\350que de son syst\350me}{section.3.2}% 23
 \BOOKMARK [0][-]{chapter.4}{Les outils informatiques utilis\351s}{}% 24
 \BOOKMARK [1][-]{section.4.1}{Qu'est-ce qu'Aseba?thymio2016}{chapter.4}% 25
 \BOOKMARK [1][-]{section.4.2}{Le langage de Thymio: ASEBA thymio2016}{chapter.4}% 26
