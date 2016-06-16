@@ -1,41 +1,45 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Domaine du Stage}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{Le SCRIME scrime2015}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{Les missions du SCRIME scrime2015}{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.3}{L'\351quipe du SCRIME scrime2015}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.1}{Le SCRIM}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Les missions du SCRIME}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{L'\351quipe du SCRIME}{section.1.1}% 5
 \BOOKMARK [1][-]{section.1.2}{Le contexte du stage}{chapter.1}% 6
 \BOOKMARK [2][-]{subsection.1.2.1}{Pourquoi ce projet?}{section.1.2}% 7
 \BOOKMARK [2][-]{subsection.1.2.2}{Les objectifs du stage}{section.1.2}% 8
 \BOOKMARK [1][-]{section.1.3}{Contenu du rapport}{chapter.1}% 9
 \BOOKMARK [0][-]{chapter.2}{Le Robot Thymio}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Pr\351sentation thymio2016}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{Philosophie d'un projet collaboratifthymio2016}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{Les diff\351rents acteurs du projet thymio2016}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{Les engagements de la soci\351t\351 cr\351atrice thymio2016}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{Thymio et le son thymio2016}{}% 15
+\BOOKMARK [1][-]{section.2.1}{Pr\351sentation}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{Philosophie d'un projet collaboratif}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Les diff\351rents acteurs du projet}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Les engagements de la soci\351t\351 cr\351atrice}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Les fonctionnalit\351s de Thymio concernant le son}{}% 15
 \BOOKMARK [1][-]{section.3.1}{Les fonctionnalit\351s natives de Thymio}{chapter.3}% 16
 \BOOKMARK [2][-]{subsection.3.1.1}{Intensit\351 sonore ambiante}{section.3.1}% 17
-\BOOKMARK [2][-]{subsection.3.1.2}{La synth\350se sonore de Thymio}{section.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.1.3}{Enregistrement et relecture}{section.3.1}% 19
-\BOOKMARK [2][-]{subsection.3.1.4}{Utilisation de "Sample"}{section.3.1}% 20
-\BOOKMARK [1][-]{section.3.2}{Cr\351ation de son depuis un ordinateur}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.2.1}{Sons syst\350me}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.2}{Biblioth\350que de son syst\350me}{section.3.2}% 23
-\BOOKMARK [0][-]{chapter.4}{Les outils informatiques utilis\351s}{}% 24
-\BOOKMARK [1][-]{section.4.1}{Qu'est-ce qu'Aseba?thymio2016}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.2}{Le langage de Thymio: ASEBA thymio2016}{chapter.4}% 26
-\BOOKMARK [0][-]{chapter.5}{R\351cup\351rer les \351v\351nements}{}% 27
-\BOOKMARK [1][-]{section.5.1}{Le transfert d'information entre Thymio et un ordinateur}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.2}{La communication locale}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.3}{Le mapping des capteurs}{chapter.5}% 30
-\BOOKMARK [2][-]{subsection.5.3.1}{Les boutons thymio2016}{section.5.3}% 31
-\BOOKMARK [2][-]{subsection.5.3.2}{Les capteurs de distance horizontaux}{section.5.3}% 32
-\BOOKMARK [0][-]{chapter.6}{Extraire l'\351v\351nement de Thymio}{}% 33
-\BOOKMARK [1][-]{section.6.1}{Aseba exec}{chapter.6}% 34
-\BOOKMARK [1][-]{section.6.2}{Aseba dump}{chapter.6}% 35
-\BOOKMARK [1][-]{section.6.3}{script avec inscription dans un fichier}{chapter.6}% 36
-\BOOKMARK [0][-]{chapter.7}{Bilan}{}% 37
-\BOOKMARK [1][-]{section.7.1}{Apports du stage}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.2}{Conclusion}{chapter.7}% 39
-\BOOKMARK [1][-]{section.7.3}{Perspective}{chapter.7}% 40
-\BOOKMARK [0][-]{chapter.8}{Annexe}{}% 41
+\BOOKMARK [1][-]{section.3.2}{La synth\350se sonore de Thymio}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{la G\351n\351ration de sons}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{L'enregistrement et la relecture}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.3}{La lecture de "Sample"}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.4}{La cr\351ation de son depuis un ordinateur}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.5}{Sons syst\350me}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.6}{Biblioth\350que de son syst\350me}{section.3.2}% 24
+\BOOKMARK [1][-]{section.3.3}{Les limites}{chapter.3}% 25
+\BOOKMARK [0][-]{chapter.4}{L'extension des possibilit\351s sonores de Thymio}{}% 26
+\BOOKMARK [1][-]{section.4.1}{Les outils informatiques utilis\351s}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.1.1}{Le langage de programmation Aseba}{section.4.1}% 28
+\BOOKMARK [2][-]{subsection.4.1.2}{Les outils ASEBA}{section.4.1}% 29
+\BOOKMARK [1][-]{section.4.2}{L'externalisation des \351v\351nements}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter.5}{La r\351alisation de cette extension}{}% 31
+\BOOKMARK [1][-]{section.5.1}{La communication entre Thymio et un ordinateur}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.2}{L'id\351e principale}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.3}{L'\351criture dans un fichier texte}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.4}{La lecture du fichier texte}{chapter.5}% 35
+\BOOKMARK [0][-]{chapter.6}{Le contenu de l'archive finale}{}% 36
+\BOOKMARK [1][-]{section.6.1}{Le README}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.2}{Makefile}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.3}{Le fichier Aseba}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.4}{Le fichier loop\137read}{chapter.6}% 40
+\BOOKMARK [0][-]{chapter.7}{Bilan}{}% 41
+\BOOKMARK [1][-]{section.7.1}{Apports du stage sur le plan personnel}{chapter.7}% 42
+\BOOKMARK [1][-]{section.7.2}{Conclusion}{chapter.7}% 43
+\BOOKMARK [1][-]{section.7.3}{Perspectives}{chapter.7}% 44
+\BOOKMARK [0][-]{chapter.8}{Annexe}{}% 45

@@ -73,33 +73,32 @@
 \chapter*{Remerciements}
 \pagenumbering{roman}
 
-%%%%%%%%%
+Tout d'abord, d'adresse toute ma gratitude à Monsieur Pierre COCHARD, en qualité de maître de stage, ainsi qu'a Monsieur Philippe Guillem, pour leur disponibilité, leur soutien, leur compréhension et leur attention. Leur confiance et le partage de leurs connaissances ont fait de ce stage un apport crucial de connaissances et d'expériences.\\
 
-A RÉDIGER PLUS TARD
+Je tiens également à remercier Madame Annnick Mersier pour son aide et son soutien tout au long de l'année, ainsi que pour son acceuil chaleureux à elle et à toute l'équipe du SCRIME.\\
+Je souhaite aussi remercier Madame Myriam Desainte-Catherine pour sa confiance et sa compréhension lors de ma première démarche, grâce à qui ce stage à pu voir le jour.\\\\
+J'adresse également mes remerciements à toutes les personnes qui ont pu m'aider lors de mes recherches durant ce stage, toutes celles qui auront lu et répondu à mes mails de questionnement, et en particulier à Mr Didier ROY qui aura été un contact précieux à l'INRIA, notemment pour le prêt d'un robot Thymio afin d'effectuer mes premiers tests.\\\\
+Je souhaite aussi remercier Madame Émilie DOS SANTOS pour sa disponibilité, son dynamisme et sa réactivité qui ont permis d'organiser au mieux ce stage.\\
 
-%%%%%%%%%%
+Pour finir, je tiens à remercier mon entourage et mes proches qui m'ont soutenu toute l'année, tant dans mes études que dans ce stage, ainsi que ceux qui m'ont conseillé dans la rédaction de ce rapport, ou bien qui l'ont relu.
 
 \chapter*{Résumé}
-
-%%%%%%%%%
-
-A RÉDIGER PLUS TARD
-
-%%%%%%%%%%
-
+	Ce stage, effectué au Studio de Création et de Recherche en Informztique et Musique Électroacoustiques (SCRIME), lié à l'équipe Image et Son du Laboratoire Bordelais de Recherche en Informatique (LaBRI) s'intéresse au robot pédagogique Thymio, et en particulier aux moyens de le rendre capable de jouer de la musique.\\
+Une première partie est consacrée la présentation du robot Thymio et du projet qui lui a donné vie. Une seconde partie présente les possibilité natives de Thymio concernant le son, tandis qu'une troisième partie détaillera comment ce stage à permis d'étendre ces possibilités.\\
+Pour finir, ce rapport présente l'archive du travail rendu ainsi que les possibilités d'amélioraitons et les suites prévues pour ce projet.
 
 \tableofcontents %génére la table des matieres
 
 \chapter{Introduction}
 \pagenumbering{arabic} % reinitialise le compteur et numerote les pages en chiffres arabes
 \section{Domaine du Stage}
-\subsection{Le SCRIME \cite{scrime2015}}
+\subsection{Le SCRIM}
 Ce stage a été effectué au sein du Studio de Création et de Recherche en Informatique et Musiques Expérimentales( ou Électro-acoustiques).\\
 Ce groupement d'intérêt scientifique et artistique est rattaché à l'équipe Image et Son du Laboratoire Bordelais de Recherche en Informatique (LaBRI).\\
 Les champs d'activités du SCRIME s'étendent de la recherche scientifique à la création artistique, en passant par la formation, la diffusion des musiques contemporaines et la pédagogie en milieu scolaire et universitaire. \\
 Le SCRIME est soutenu par le Ministère de la Culture, le Conseil Régional d'Aquitaine, la DRAC et le CNRS.\\
 
-\subsection{Les missions du SCRIME \cite{scrime2015}}
+\subsection{Les missions du SCRIME}
 Les différentes missions du SCRIME sont:
 \begin{itemize}
 \item Favoriser la collaboration entre scientifiques et artistes à des fins de recherche et de création
@@ -108,7 +107,7 @@ Les différentes missions du SCRIME sont:
 \item Favoriser les actions pédagogiques dans les institutions partenaires ainsi que dans les autres établissements publics d'enseignement et de création et ce à tous les niveaux 
 \end{itemize}
 
-\subsection{L'équipe du SCRIME \cite{scrime2015}}
+\subsection{L'équipe du SCRIME}
 L'équipe de ce groupement d'intérêt scientifique et artistique est essentiellement composée de:
 \begin{description}
 \item[Myriam Desainte-Catherine :] Direction scientifique
@@ -133,32 +132,32 @@ Philippe GUILLEM est maître formateur en musique et enseignant en école matern
 Comment chez des élèves de 5 ans, aider à construire une image du Robot et des relations que l'homme peut entretenir avec ces machines?\\
 
 Lors d'une conférence, Philippe GUILLEM a découvert le projet du robot THYMIO. De part sa robustesse, sa simplicité d'accès, d'utilisation et de programmation, ainsi que par sa conception, il était tout à fait adapté aux jeunes enfants et donc à ce projet.
-Enfin, il restait la question de représenter la relation homme / robot. Pour cela, Mr GUILLEM a tenu à faire un lien avec la musique, car c'est ce qu'il y a de plus parlant pour les jeunes auditorats. C'est donc à ce moment que le SCRIME a été sollicité, en particulier Pierre COCHARD, et ils ont travaillé sur le projet de ce stage, qui finira par m'être proposé.
+Enfin, il restait la question de représenter la relation homme / robot. Pour cela, Mr GUILLEM a tenu à faire un lien avec la musique, car c'est ce qu'il y a de plus parlant pour les jeunes auditorats. C'est donc à ce moment que le SCRIME a été sollicité, en particulier Pierre COCHARD, et ils ont travaillé sur le projet de ce stage.
 
 
 \subsection{Les objectifs du stage}
-%%%%%%%%%% TODO MAJ %%%%%%%%%% 
-L'objectif principal de ce stage était de réaliser une interface permettant de piloter le robot Thymio avec le logiciel i-score afin d'en permettre l'utilisation en classe avec des élèves de maternelle par monsieur Phillipe GUILLEM. \\
-Dans ce but, ce stage devait permettre d'implémentation d'un système de communication entre Pyo (ou tout autre logiciel adapté) et i-score.\\
+L'objectif initial de ce stage était de réaliser une interface permettant de piloter le robot Thymio avec le logiciel I-score afin d'en permettre l'utilisation en classe avec des élèves de maternelle par monsieur Phillipe GUILLEM. \\
+Dans ce but, ce stage devait permettre l'implémentation d'un système de communication entre Pyo (ou tout autre logiciel adapté) et le logiciel I-score.\\
+Or le stage étant très étalé, mais d'une durée effective courte, les objectifs ont été redéfinis. L'objectif du stage est devenu d'écrire un programme permettant de traiter les évènements de Thymio extérieurement au robot, mais en temps réel. En effet, si ce traitement est valide, il devient aisé d'y insérer une transmission en protocole Open Sound Control (OSC) par exemple et ainsi de communiquer avec I-score.
 L'objectif pédagogique était d'obtenir des compétences en robotique et dans le traitement des informations d'un capteur. 
 
 \section{Contenu du rapport}
-%%%%%%%%%
+Afin de mieux comprendre la finalité de ce stage, ce rapport va d'abord permettre de définir ce qu'est Thymio et le projet pédagogique et communautaire auquel il appartient. 
+Les fonctionnalités du robot seront ensuite détaillées, principalement ses compétences relatives au son et à la musique. Ensuite, seront expliqués les méthodes envisagées et sélectionnées afin d'étendre les compétences de base de Thymio. 
+La partie suivante concernera l'archive finale de travail, ainsi que son contenu.
+Enfin, une conclusion détaillera les résultats obtenus, les apports réalisés et les améliorations possibles.
 
-%A RÉDIGER PLUS TARD "le résumé" En double??
-
-%%%%%%%%%%
 \chapter{Le Robot Thymio}
-\section{Présentation \cite{thymio2016}}
+\section{Présentation}
 
-Thymio, conçu par l’École polytechnique fédérale de Lausanne est un petit robot dédié à la pédagogie. Ses deux roues lui permettent déplacement et manoeuvres, tandis qu'il embarque des boutons ainsi que de nombreux capteurs infrarouges pour détécter des obstacle ou des surfaces, un micro, un haut parleur, un accéléromètre et même un thermomètre. Son accessibilité est due à la mise à disposition de ses propres interfaces de programmation. Il y en a en effet plusieurs, à commencer par l'interface de programmation texte, ASEBA STUDIO qui permet d'exploiter entièrement le langage ASEBA. Une adaptation de BLOCKY est aussi disponible, qui permet d'aborder la programmation texte de manière simplifiée, et enfin il y a VPL qui permet de programmer THYMIO visuellement grâce à des vignettes. C'est grâce à ces interfaces que ce robot se trouve adpaté aux plus jeunes.
+Thymio, conçu par l’École polytechnique fédérale de Lausanne, est un petit robot dédié à la pédagogie. Ses deux roues lui permettent déplacements et manoeuvres, tandis qu'il embarque des boutons ainsi que de nombreux capteurs infrarouges pour détécter des obstacle ou des surfaces, un micro, un haut parleur, un accéléromètre et même un thermomètre. Son accessibilité est due à la mise à disposition de ses propres interfaces de programmation. Il y en a en effet plusieurs, à commencer par l'interface de programmation texte, ASEBA STUDIO qui permet d'exploiter entièrement le langage ASEBA. Une adaptation de BLOCKY est aussi disponible, qui permet d'aborder la programmation texte de manière simplifiée, et enfin il y a VPL qui permet de programmer THYMIO visuellement grâce à des vignettes. C'est grâce à ces interfaces que ce robot se trouve adpaté aux plus jeunes.
 
 Pour résumer, il s'agit d'un robot complet, qui embarque un grand nombre de capteurs, et accessible à tous, aux plus jeunes comme aux programmeurs confirmés, c'est pourquoi ce robot a été choisi pour ce projet de stage.
 
-\section{Philosophie d'un projet collaboratif\cite{thymio2016}}
+\section{Philosophie d'un projet collaboratif}
 Le but du projet THYMIO était de permettre à un large publique, et en particulier aux enfants, la découverte et l'apprentissage de la programmation, de la robotique, de l'ingénierie et des technologies numériques. Pour permettre cela, il a fallut regrouper plusieurs corps de métiers et des connaissances poussées dans différents domaines. C'est pourquoi THYMIO est un projet communautaire, qui implique plusieurs entités. Il s'agit donc d'un modèle basé sur le partage libre des connaissances, c'est à dire que Tout le matériel, le logiciel, et la documentation sont développés par les partenaires sous licence libre. Ainsi, les partenaires s'engagent à fournir l'information de conception gratuitement, de manière à ce que chacun puisse comprendre, utiliser, ou modifier cette information, à condition de distribuer à son tour les résultats de son travail. Il est donc important que ce stage s'inscrive dans cette dynamique, et que le travails ainsi que les résultats soient partagés à la communauté.
 
-\section{Les différents acteurs du projet \cite{thymio2016}}
+\section{Les différents acteurs du projet}
 Comme expliqué précédemment, plusieurs catégories d'acteurs se sont alliés dans ce projet:
 \begin{description}
 \item[Les institutions de recherche: ]qui permettent de diffuser le travail et de l'amener auprès du public. Plus la base d'utilisateurs grandit, meilleures sont les possibilités d'évaluation et d'amélioration. Les résultats de la recherche sont ainsi mis rapidement en application.
@@ -176,13 +175,11 @@ Parmis les principaux acteurs, on pourra citer en particulier:
 \item[la Loterie Romande, Suisse]
 \item[et le Fond National Suisse de la Recherche Scientifique] Respectivement pour l'aide financière pour les premières production et l'aide financière pour la mise en place de kits éducatifs
 \item[INRIA - L'Institut National de Recherche en Informatique et en Automatique] Développeur principal de l'adaptation de SCRATCH au THYMIO, qui donnera BLOCKY, et développement du matériel éducatif pour les enseignants, notamment avec le projet "Dessine-moi un robot". 
-
-%%%%%%%%%%%% TODO URL %%%%%%%%%
 \end{description} 
 
 L'INRIA nous aura grandement aidé dans notre projet, grâce notamment au contact de Didier Roy; docteur en informatique cognitive, lié de près au projet Thymio, qui nous aura aidé dans nos réfléxions, mais aussi prêté un THYMIO de test pendant plusieurs mois avant que le SCRIME n'ai pu en faire l'acquisition.
 
-\section{Les engagements de la société créatrice \cite{thymio2016}}
+\section{Les engagements de la société créatrice}
 Pour suivre cette philosophie basée sur la collaboration et les sources ouvertes (open source), la société créatrice a choisi les modes de diffusion suivants:
 \begin{itemize}
 \item pour le logiciel, le code source est en open source, sous licence LGPL.
@@ -192,27 +189,27 @@ Pour suivre cette philosophie basée sur la collaboration et les sources ouverte
 
 Afin de permettre une production et un distribution à grande échelle, une association à but non lucratif a été crée, Mobsya. L'association assure la production du matériel. Pour le logiciel, elle contribue à la maintenance et au développement en collaboration avec les autres partenaires. L'association gère aussi l'infrastructure qui permet de créer une communauté d'utilisateurs, qui peuvent s'entraider grâce à des listes de discussion et un site de partage d'information qui contient la documentation, des exemples de réalisation, du support technique, etc. Cette infrastructure aura également aidé durant ce stage.
 
-\chapter{Thymio et le son \cite{thymio2016}}
+\chapter{Les fonctionnalités de Thymio concernant le son}
 \section{Les fonctionnalités natives de Thymio}
 Le robot Thymio est déjà conçu pour une intéraction basée sur le son. C'est possible entre autre grâce à la présence d'un micro et d'un haut-parleur, mais aussi grâce au slot micro-SD. Seulement les possibilité sont limitées.
-Lecture et enregistrement de sons.\\
 
 \subsection{Intensité sonore ambiante}
 Le robot peut détecter lorsque le bruit ambiant est au-dessus d'une intensité donnée. C'est possible, grâce à la variable mic.intensity qui donne l'intensité du microphone embarqué ou encore grâce à la variable mic.threshold qui contient la limite de l'intensité pour l'événement. Un évènement est alors généré si mic.intensity est au-dessus de mic.threshold.\\
 
-\subsection{La synthèse sonore de Thymio}
-Le langage Aseba possède fonction native "sound.freq" qui joue une fréquence, spécifiée en Hz, pour une certaine durée, spécifié dans 1/60 s. Une durée égale à 0 joue le son à l'infini et une durée de -1 arrête le son.\\
+\section{La synthèse sonore de Thymio}
+\subsection{la Génération de sons}
+Le langage Aseba possède une fonction native "sound.freq" qui joue une fréquence, spécifiée en Hz, pour une certaine durée, spécifié dans 1/60 s. Une durée égale à 0 joue le son à l'infini et une durée de -1 arrête le son.\\
 La génération de sons de synthèse fonctionne par ré-échantillonnage d'une onde primaire. Par défaut, l'onde est triangulaire, mais il est possible de la	définir à l'aide de la fonction native "sound.wave". Cette fonction prend en entrée un tableau de 142 échantillons, avec des valeurs de -128 à 127. Ce tableau doit représenter une onde tonique de la fréquence spécifiée dans sound.freq.\\
  Comme Thymio joue des sons à 7812,5 Hz, ce tableau est joué entièrement à la fréquence de 7812.5/142 = ~ 55 Hz. Jouer un son de fréquences plus élevées fait sauter des échantillons dans le tableau.
 
-\subsection{Enregistrement et relecture}
+\subsection{L'enregistrement et la relecture}
 Il est aussi possible d'enregistrer des sons en utilisant la fonction native "sound.record" qui prend en paramètre un numéro d'enregistrement de 0 à 32767. Le fichier est stocké sur la carte micro-SD sous le nom Rx.wav où x est le paramètre passé à la fonction sound.record. Pour arrêter un enregistrement, il faut appeler la fonction sound.record avec la valeur -1.\\
 On peut également rejouer un son enregistré en utilisant la fonction native sound.replay . Cette fonction prend en paramètre un nombre de 0 à 32767 et rejouer le fichier Rx.wav de la carte SD où x est le paramètre passé à la fonction sound.replay. Pour arrêter une lecture, il faut appeler la fonction sound.replay avec une valeur de -1.
 
-\subsection{Utilisation de "Sample"}
+\subsection{La lecture de "Sample"}
 Il est également possible de jouer d'autres sons que les sons simples générés par synthèse ou les sons système. En utilisant une carte micro-SD formatée FAT, il est possible d'enregistrer et de jouer des "samples", des morceaux de musique pré-enregistrés. Les fichiers doivent cependant être stockés sur la carte micro-SD au format wave, 8-bit non-signé, 8 kHz. Lorsque le robot fini la lecture d'un son demandée par ASEBA, il déclenche l'événement sound.finished . Il ne se déclenche pas d'événement si la lecture est interrompue ou si un nouveau son est joué.\\
 
-\section{Création de son depuis un ordinateur}
+\subsection{La création de son depuis un ordinateur}
 Voici la démarche, selon les créateurs de Thymio, pour créer, à l'aide du logiciel Audacity, un son compatible avec Thymio II qui puisse être joué:\\
 \begin{itemize}
 \item Une fois démarré audacity, changer le "project rate" situé en bas à gauche de 44100 Hz (défaut) à 8000 Hz.
@@ -226,7 +223,7 @@ Voici la démarche, selon les créateurs de Thymio, pour créer, à l'aide du lo
 \end{itemize}
 
 \subsection{Sons système}
-Vous pouvez jouer un ou des sons système à l'aide de la fonction native sound.system , qui prend un nombre de 0 à 32767 en tant que paramètre. Certains sons sont disponibles dans le firmware (voir ci-dessous), mais on peut remplacer ces sons et en ajouter de nouveaux en utilisant la carte micro-SD. Pour arrêter la lecture d'un son, appelez la fonction sound.system avec la valeur -1.
+Les sons système de Thymio peuvent être utilisés à l'aide de la fonction native "sound.system" , qui prend un nombre de 0 à 32767 en tant que paramètre. Certains sons sont disponibles dans le firmware (voir ci-dessous), mais on peut remplacer ces sons et en ajouter de nouveaux en utilisant la carte micro-SD. Pour arrêter la lecture d'un son, il faut rappeler la fonction sound.system avec la valeur -1.
 
 \subsection{Bibliothèque de son système}
 Les sons suivant sont disponibles :\\
@@ -242,72 +239,82 @@ paramètre 	description\\
 7 	son de détection d'objet pour suivi\\
 Pour ne plus entendre de son système, vous pouvez décompresser sur une carte micro-SD cette archive qui contient des sons muets.
 
-\chapter{Les outils informatiques utilisés}
-\section{Qu'est-ce qu'Aseba?\cite{thymio2016}}
-\textit{Aseba est un ensemble d'outils permettant à des novices de programmer des robots facilement et efficacement. Pour ces raisons, Aseba est bien adapté à la recherche [1, 5, 2] et l'enseignement [4] en robotique. Aseba est open-source (license GNU Lesser General Public License), vous pouvez donc le télécharger et jouer avec.\\
-Techniquement, Aseba est une architecture de contrôle temps réel et distribué de robot mobile, basée sur des événements. Aseba vise les robots à plusieurs micro-contrôleurs ou les groupes de robots à simple micro-contrôleurs, réels ou simulés. Le cœur d'Aseba est une machine virtuelle légère, suffisamment compacte pour fonctionner sur micro-contrôleurs. Aseba permet de programmer les robots dans un langage ergonomique et simple d'accès, à partir d'un environnement de développement intégré}
-\section{Le langage de Thymio: ASEBA \cite{thymio2016}}
-\textit{Le langage de programmation d'Aseba permet de programmer le comportement des nœuds Aseba. Syntaxiquement, ce langage ressemble à une classe populaire de langages, incluant Pascal et Matlab (un langage de programmation scientifique commun) par exemple ; nous nous attendons à ce que cette ressemblance permette aux développeurs ayant des connaissances préalables de ces langages de se sentir à l'aise et d'apprendre rapidement. Sémantiquement, Aseba est un langage de programmation impératif avec un seul type simple (nombres entiers signés sur 16 bits) et des tableaux. Cette simplicité permet aux développeurs sans connaissances préalables d'un système de type de programmer des comportement ; les nombres entiers étant le type de variable le plus naturel. De plus, les nombres entiers sont particulièrement adaptés aux robots à micro-contrôleurs.}\\
-Il est à noter que ce langage n'est utilisé que pour le robot Thymio.
+\section{Les limites}
+Cette gestion du son de par les fonctions natives de Thymio est assez limitée. En effet, il est seulement possible de lire des sons soit du système, soit des sons pré-enregistrés. Ces sons doivent être échantillonés a 8kHz, ce qui impacte fortement leur qualité. Quant à la synthèse, il faut se contenter de jouer des fréquences en utilisant des ondes primaires, comme indiqué précemment. C'est pour ces raisons que l'objectif de ce stage sera d'établir un protocole de communication entre Thymio et l'ordinateur de manière à ce que ce soit le PC qui synthétise le son en fonction des informations communiquées par le robot.
 
-%\section{Le logiciel I-score}
-%Les entrées sont codés en OSC(Open Sound Control)
-%on va peut -etre pas garder i-score si tu fais pas ton stage dessus
+\chapter{L'extension des possibilités sonores de Thymio}
+\section{Les outils informatiques utilisés}
+La réalisation de ce stage aura nécessité la combinaison de plusieurs outils, tels que le langage Aseba, le langage C, l'hébergement de projet sur git, la programmation système ou encore la recherche sur forums et canaux de discussion.
 
-\chapter{Récupérer les événements}
-Le coeur du stage était composé de 2 missions: récupérer les événements du robot (comme une simulation des capteurs) et les extraire afin de les utiliser comme événements dans i-score et créer ainsi de la musique.
-\section{Le transfert d'information entre Thymio et un ordinateur}
-le stage a été réalisé sur 2 Thymio: un classique et un "wireless".\\
-Le Thymio classique ne possède pas de système de communication à distance ce qui rend la récupération de données pour un ordinateur très compliqué. Une possibilité de transfert par onde radio à été envisagée mais le Thymio wireless a été commercialisé. Ce robot est spécialement étudié pour communiquer à distance avec un ordinateur ce qui rend le transfert d'information plus facile.
-\section{La communication locale}
-Thymio peut utiliser ses capteurs horizontaux de distance infrarouge pour communiquer une valeur à un autre robot à proximité dans un rayon de 15 cm. La valeur est envoyée à 10 Hz lors du traitement des capteurs de distance. Thymio envoie une valeur de 11 bits (mais un futur firmware pourrait utiliser 1 bits pour utilisation interne, il est donc préférable de se limiter à 10 bits). Pour utiliser la communication, appelez la fonction prox.comm.enable(state), avec 1 comme paramètre state pour enclencher et 0 pour désactiver. Si la communication est activée, la valeur dans prox.comm.tx est transmise toutes les 100 ms. Lorsque Thymio reçoit une valeur, l'événement prox.comm est déclenché et la valeur peut être lue dans la variable prox.comm.rx .
-\section{Le mapping des capteurs}
-\subsection{Les boutons \cite{thymio2016}}
-Thymio possède 5 boutons capacitifs correspondant aux flèches et au bouton central. Un tableau de 5 variables, buttons.binary, contient l'état de ces boutons (1 = appuyé, 0 = relâché) :\\
+\subsection{Le langage de programmation Aseba}
+Le langage Aseba est un langage spécialement adapté pour la programmation de comportements pour robots à micro-contrôleurs. Ce langage open source est une architecture de contrôle temps réel et distribué de robot mobile, basée sur la programmation évènementielle. Aseba dispose de son propre environnement de développement (Aseba Studio) qui est totalement intégré au robot Thymio. C'est pour cela que ce langage a été utilisé lors de ce stage. Sémantiquement, il s'agit d'un langage de programmation impératif avec un seul type simple (nombres entiers signés sur 16 bits) et des tableaux.
+
+\subsection{Les outils ASEBA}
+Mais Aseba c'est aussi un ensemble de programme et d'outils qui peuvent permettre d'aider la programmation de robots. En témoigne l'installation des programmes tels que "asebadump", "asebaswitch", "asebaexec", "asebaeventlogger", etc...
+Certain seront étudiés, comme asebaexec ou asebadump, d'autre serviront directement lors de la réalisation du travail comme asebaswitch.
+
+\section{L'externalisation des événements}
+Le stage s'étalant sur une durée effective relativement courte (4 semaines de travail), il aura été principalement articulé autour de la possibilité d'externaliser les évènements générés par le robot lors de la stimulation de ses capteurs. Il est nécessaire de pouvoir traiter les données des cpateurs depuis l'ordinateur récepteur, et de cette manière, une synthèse sonore précise et de haute qualité peut être calculée.
+
+\chapter{La réalisation de cette extension}
+\section{La communication entre Thymio et un ordinateur}
+Au cours de ce stage, deux générations de Thymio auront été étudiées, le Thymio II et le Thymio II Wireless. La seule différence se fait d'un poinit de vue matériel, puisque que le Thymio II Wireless permet de s'affranchir du câble USB qui le relie à l'ordinateur. Tout l'intérêt de cet investissement réside dans le fait de pouvoir maintenir la communication antre l'ordinateur et le robot peu importe la distance, sa place dans le parcours et la taille de celui-ci. En revanche, d'un point de vue logiciel, il n'y à pas de différence, l'ordinateur capte les valeurs des capteurs de la même manière, que ce soit par USB ou par radiofréquence.
+
+\section{L'idée principale}
+Premièrement, il a fallu mettre en place un code Aseba qui génère des évènements lorsque cela est souhaité, autrement dit à chaque stimulation de capteurs. Grâce à l'étude de la documentation de Aseba, l'idée d'utiliser la fonction "emit" est apparue assez naturellement. Elle est définie ainsi:
+
 \begin{itemize}
-\item button.backward : flèche arrière
-\item button.left : flèche gauche
-\item button.center : bouton central
-\item button.forward : flèche avant
-\item button.right : flèche droite
+\item{\textit{Un script peut envoyer des événements en utilisant le mot clé emit, suivi par le nom de l'événement ainsi que du nom de la variable à envoyer. [...] Les événements permettent ainsi à un script de déclencher l'exécution de code sur un autre nœud ou de communiquer avec un programme externe.}}
 \end{itemize}
-Thymio met à jour ce tableau à une fréquence de 20 Hz, et génère l'événement button après chaque mise à jour. En outre, pour chacune de ces touches, quand elle est appuyée ou relâchée, un événement correspondant avec le même nom est émis.
-\subsection{Les capteurs de distance horizontaux}
-Thymio possède 7 capteurs de distances autour de lui. Un tableau de 7 variables, prox.horizontal, contient les valeurs de ces capteurs :\\
-\begin{itemize}
-\item prox.horizontal[0] : avant gauche
-\item prox.horizontal[1] : avant milieu-gauche
-\item prox.horizontal[2] : avant milieu
-\item prox.horizontal[3] : avant milieu-droite
-\item prox.horizontal[4] : avant droite
-\item prox.horizontal[5] : arrière gauche
-\item prox.horizontal[6] : arrière droite
-\end{itemize}
-Les valeurs dans ce tableau varient de 0 (le robot ne voit rien) à plusieurs milliers (le robot est très proche d'un obstacle). Thymio met à jour ce tableau à une fréquence de 10 Hz, et génère l'événement prox après chaque mise à jour.
 
-%\subsection{Le sol}
-%Thymio possède 2 capteurs de distance au sol. Ces capteurs sont situés à l'avant du robot. Comme un sol noir se comporte comme pas de sol (le noir absorbe la lumière infrarouge), ces capteurs permettent de suivre une ligne au sol. Trois tableaux permettent de lire les valeurs de ces capteurs :\\
-%\begin{itemize}
-%\item prox.ground.ambiant : intensité lumineuse ambiante au sol, varie entre 0 (pas de lumière) et 1023 (lumière maximale)
-%\item prox.ground.reflected : quantité de lumière reçue pendant que le capteur émet de l'infrarouge, varie entre 0 (aucune réflexion) et 1023 (lumière maximale)
-%\item prox.ground.delta : différence entre la lumière réfléchie et la lumière ambiante, liée à la distance et à la couleur du sol
-%\end{itemize}
-%Pour chaque tableau, l'index 0 correspond au capteur de gauche et l'index 1 à celui de droite. Tout comme pour les capteurs de distance, Thymio met à jour ce tableau à une fréquence de 10 Hz.
+Suite à l'écriture de se programme, le robot envoie bien des évènements. Ceux-la sont visible dans la fenêtre dédiée d'Aseba Studio. Il était alors possible de lancer une partie du code à executer sur le Thymio en fonction de l'évènement envoyé, mais le problème n'était pas résolu, cela ne suffisait pas à externaliser complètement les évènements.
 
-\chapter{Extraire l'événement de Thymio}
-Plusieurs pistes ont été étudiés:
-\section{Aseba exec}
-piste avec lancement d'un événement dans i-score
-\section{Aseba dump}
-piste avec lancement d'un script
-\section{script avec inscription dans un fichier}
+Après étude du code source d'Aseba et de celui des outils qui lui sont relatifs, le manque de solutions aura nécessité des recherches au sein de la "communauté Thymio". C'est en cherchant de l'aide sur le forum principal d'Aseba que l'idée d'inscrire les évènements dans un fichier texte est apparue.\\
+En effet, il est possible de faire en sorte que chaque évènement envoyé ainsi que les données qui s'y rapportent soient inscrites dans un fichier texte en temps réel. Une fois cette méthode lancée, la lecture de se fichier permet d'analyser les données des évènements et de les traiter comme on le souhaite, ce qui est l'objectif principal de ce stage.
+
+\section{L'écriture dans un fichier texte}
+Il existe donc des commandes qui permettent l'écriture dans un fichier texte de la totalité des évènements envoyés. Pour cela, il faut se connecter au port sur lequel est connecté le robot Thymio afin de lire les données envoyées grâce à la commande :
+\begin{verbatim}
+~/asebaswitch "ser:name=Thymio"\\
+\end{verbatim}
+ 
+Il faut ensuite indiquer par une commande que l'on souhaite enregistrer la totalité des données passantes par ce port dans un fichier avec la ligne:
+\begin{verbatim}
+~/asebarec "tcp:localhost;port=33333" > <nom_du_fichier>
+\end{verbatim}
+ 
+
+A la suite de ça, on peut executer, sur le robot, le code écrit dans aseba et voir s'inscrire en temps réel les données des évènements dans le fichier passé plus tôt en paramètre.
+
+\section{La lecture du fichier texte}
+Une fois le résultat souhaité obtenu en écriture, il reste à lire le fichier. Pour cela, il y a le programme "loop\_read". Ce programme prend deux paramètres, le nom du fichier dans lequel les évènements sont ecrits, et le nom d'un second fichier, au choix de l'utilisateur dans lequel chaque donnée des évènements traités sont écrites proprement avec leur signification. Cela permet d'avoir une trace de fonctionnement du programme, des évènements traités et donc de leur nombre.\\
+La principale difficulté aura été de faire en sorte que le programme de lecture fonctionne en même temps que l'écriture, et que tous les évènements soient traités en temps réel. Pour cela, le programme "loop\_read" scanne le fichier des évènements ligne par ligne (on sait qu'a une ligne correspond un évènement). Si le numéro d'identifiant de l'évènement est différent de celui traité précédemment, alors on le traite. Sinon, on scanne la ligne suivante. Cet algorithme permet de s'assurer que la totalité des évènements déjà ecrits sont traités, et qu'il n'y ai pas de répétition d'évènements. La dernière modification consiste à répéter cet algorithme tant que l'évènement final n'est pas détécté. L'évènement final est celui identifié par la constante NBR\_STOP\_EVENT en début du fichier. Il s'agit d'un évènement à part qui va déterminer que l'on termine le programme à son émission.
 
 
+\chapter{Le contenu de l'archive finale}
+\section{Le README}
+L'archive finale contient différents fichiers qui sont nécessaires pour l'éxécution de ce code. Elle contient en particulier un fichier "README.md" qui détaille le contenu des autres fichiers de l'archive mais aussi qui sert de guide pas-à-pas au lancement du programme de traitement des évènements.
+
+\section{Makefile}
+Le makefile présent est aussi simple qu'il est efficace. Il permet de compiler le programme "loop\_read".
+
+\section{Le fichier Aseba}
+Ce fichier ("prox-event-sender.aesl") contient le code d'exemple qui sera à exécuter sur le robot. Il ne prend pas en charge de déplacements, seulement la gestion des évènement en fonction de la stimulation des capteurs de proximité horizontale. Il est extensible à n'importe quel autre capteur, et intégrable à d'autre codes Aseba.
+
+\section{Le fichier loop\_read}
+Il s'agit du programme principal. Il est nécessaire d'ajuster la constante \\NBR\_STOP\_EVENT en fonction de l'identifiant donné à l'évènement final qui est déterminé dans le code du fichier Aseba. Les autres modifications à apporter concerneront le traitement plus fin des données des évènements (la transmission en protocole de communication avec un séquenceur par exemple). Ce traitement sera à insérer dans ce programme à l'endroit indiqué par les commentaires ou par le README.
 
 \chapter{Bilan}
-\section{Apports du stage}
+\section{Apports du stage sur le plan personnel}
+Ce stage aura été très particulier. En effet, il se sera étalé tout au long de l'année scolaire de début Novembre à début fin Mai, tandis que le temps de travail effectif aura été très court, puisque cela correspond à environ 4 semaines. Cette organisation très particulière aura été difficile à gérer. En effet, il aura été compliqué de concilier convenablement les cours, les projets et les examens en plus du stage. Cependant, cela m'aura appris à m'organiser à long terme, car c'est ainsi que ce stage a pu aboutir. Une autre leçon principale aura été de me rendre compte a quel point il était important d'avancer efficacement car en me présentant seulement une demi-journée par semaine, il fallait optimiser mon avancée sur cette demi-journée.\\
+Ensuite, le fait de travailler sur le robot Thymio, et au coeur du projet pédagogique qui l'entour, m'aura appris à travailler sur un projet libre. C'est à dire que cela m'a appris a contacter des personnes afin de demander de l'aide, d'utiliser les réseaux sociaux comme liste de contacts, et de rendre mon code accessible au plus grand nombre. Cela aura eu un impact direct sur mon travail puisque c'est pour ces raisons que j'ai choisi de commenter entièrement le code du programme de lecture de fichier en anglais, et que j'ai passé un certain temps à rédiger le fichier "README", indispensable si quelqu'un souhaite récupérer mon travail et l'adapter au sien.\\
+Techniquement, ce stage m'a aussi permis de mettre en pratique des connaissances acquises au cours de l'année universitaire, comme les cours de programmation système, qui m'auront inspiré pour la gestion de fichier (ouverture, lecture et écriture). Mais j'ai également pu apprendre beaucoup en étudiant au plus près un nouveau langage (Aseba) ainsi que son code source en anglais. Le fait de travailler avec un robot aura aussi été quelque chose de nouveau, et élargie le champs des possibilités d'application de l'informatique que je connaissais déjà. 
 \section{Conclusion}
-\section{Perspective}
+Il aura été difficile de rendre le robot Thymio "ordonnant", tandis qu'il est entièrement conçu pour être exécutant. Cepandant le programme écrit lors de ce stage semble fonctionner, et serait adaptable à n'importe quel projet. Il suffirait pour cela de bien consulter le fichier README ou bien ce référer aux parties correspondantes dans ce rapport. En revanche, cette volontée d'adaptabilité a impacté le résultat, puisque l'archive contenant les fichiers n'est pas totalement utilisable en soi. En d'autres termes, les fichiers fournis permettent de tester le programme, et d'avoir une visualisation des évènements et de leur traitement, mais actuellement le traitement ne consiste qu'à la réécriture de ces évènements dans un nouveau fichier. Cela n'a pas d'autre utilité en soi que la visualisation. C'est pour cela qu'il n'existe pas encore de démonstration d'applications.
+\section{Perspectives}
+Les persepectives d'évolution de ce projet sont nombreuses. Premièrement, il faudra insérer au programme une partie de code qui permettra la communication avec un logiciel séquenceur. Le première idée serait d'utiliser une bibliothèque C pour la gestion de paquets Open Sound Control (OSC) qui est un protocole de communication entre ordinateurs, synthétiseurs ou robots qui est plus complet que la norme MIDI.\\
+Ensuite il faudra déterminer quelles seront les instructions à transmettre et comment les traduire en musique au sein du séquenceur audio. Une fois cela effectué, il sera possible de faire une première démonstration.
+Les autres perspectives concernent la diffusion et la mise à disposition de ce code. Comme détaillé précemment, ce stage s'inscrit au coeur d'un projet communautaire en pleine évolution. Il est alors important de rendre ce travail accessible, et il sera certainement intéressant de suivre son évolution au seins des différents autres projets auquels il est susceptible de se greffer.
 
 \bibliographystyle{plain}
 \nocite{*}

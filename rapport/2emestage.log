@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.19)  30 MAY 2016 16:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.19)  1 JUN 2016 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,13 +595,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<ub.png, id=168, 341.275pt x 148.555pt>
+<ub.png, id=184, 341.275pt x 148.555pt>
 File: ub.png Graphic file (type png)
  <use ub.png>
 Package pdftex.def Info: ub.png used on input line 23.
 (pdftex.def)             Requested size: 188.21288pt x 81.9299pt.
 
-<scrime.png, id=170, 384.43625pt x 131.49126pt>
+<scrime.png, id=186, 384.43625pt x 131.49126pt>
 File: scrime.png Graphic file (type png)
  <use scrime.png>
 Package pdftex.def Info: scrime.png used on input line 24.
@@ -622,193 +622,120 @@ Overfull \hbox (14.63141pt too wide) in paragraph at lines 43--44
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./ub.png> <./scrime.png>] 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./ub.png> <./scrime.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+
+ []
+
 [1
 
 ] [2
 
-] (./2emestage.toc
+] (./2emestage.toc [3
 
-LaTeX Warning: Citation `scrime2015' on page iii undefined on input line 4.
-
-
-LaTeX Warning: Citation `scrime2015' on page iii undefined on input line 5.
-
-
-LaTeX Warning: Citation `scrime2015' on page iii undefined on input line 6.
-
-
-LaTeX Warning: Citation `thymio2016' on page iii undefined on input line 12.
-
-
-LaTeX Warning: Citation `thymio2016' on page iii undefined on input line 13.
-
-
-LaTeX Warning: Citation `thymio2016' on page iii undefined on input line 14.
-
-
-LaTeX Warning: Citation `thymio2016' on page iii undefined on input line 15.
-
-
-LaTeX Warning: Citation `thymio2016' on page iii undefined on input line 16.
-
-
-LaTeX Warning: Citation `thymio2016' on page iii undefined on input line 26.
-
-
-LaTeX Warning: Citation `thymio2016' on page iii undefined on input line 27.
-
-[3
-
-]
-
-LaTeX Warning: Citation `thymio2016' on page iv undefined on input line 32.
-
-)
+])
 \tf@toc=\write4
 \openout4 = `2emestage.toc'.
 
  [4]
 Chapitre 1.
 
-LaTeX Warning: Citation `scrime2015' on page 1 undefined on input line 96.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 96.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
+Underfull \hbox (badness 10000) in paragraph at lines 96--100
 
  []
 
 
-LaTeX Warning: Citation `scrime2015' on page 1 undefined on input line 102.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 102.
-
-
-Overfull \hbox (6.3759pt too wide) in paragraph at lines 106--107
+Overfull \hbox (6.3759pt too wide) in paragraph at lines 105--106
 []\T1/cmr/m/n/12 Favoriser la dif-fu-sion in-ter-na-tio-nale des ré-sul-tats de
 s re-cherches et des oeuvres
  []
 
 
-Overfull \hbox (5.98418pt too wide) in paragraph at lines 107--108
+Overfull \hbox (5.98418pt too wide) in paragraph at lines 106--107
 []\T1/cmr/m/n/12 Promouvoir les col-la-bo-ra-tions scien-ti-fiques et ar-tis-ti
 ques avec d'autres centres
  []
-
-
-LaTeX Warning: Citation `scrime2015' on page 1 undefined on input line 111.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 111.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 \item[Myriam Desainte-Catherine :]
+l.113 \item[Myriam Desainte-Catherine :]
                                          Direction scientifique [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 [2] [3]
 Chapitre 2.
-
-LaTeX Warning: Citation `thymio2016' on page 4 undefined on input line 152.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 152.
-
-
-LaTeX Warning: Citation `thymio2016' on page 4 undefined on input line 158.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 158.
-
 [4
 
 ]
-
-LaTeX Warning: Citation `thymio2016' on page 5 undefined on input line 161.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 161.
-
-
-Overfull \hbox (6.705pt too wide) in paragraph at lines 164--165
+Overfull \hbox (6.705pt too wide) in paragraph at lines 163--164
 []\T1/cmr/m/n/12 qui per-mettent de dif-fu-ser le tra-vail et de l'ame-
  []
 
 
-Overfull \hbox (1.35898pt too wide) in paragraph at lines 174--175
+Overfull \hbox (1.35898pt too wide) in paragraph at lines 173--174
 []\T1/cmr/m/n/12 Le la-bo-ra-toire de Sys-
  []
 
 
-Overfull \hbox (19.24622pt too wide) in paragraph at lines 177--178
+Overfull \hbox (19.24622pt too wide) in paragraph at lines 176--177
 []\T1/cmr/m/n/12 Respectivement pour
  []
 
 [5]
-Overfull \hbox (51.7841pt too wide) in paragraph at lines 178--179
+Overfull \hbox (51.7841pt too wide) in paragraph at lines 177--178
 []
  []
-
-
-LaTeX Warning: Citation `thymio2016' on page 6 undefined on input line 185.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 185.
 
 [6]
 Chapitre 3.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 195.
-
-
-LaTeX Warning: Citation `thymio2016' on page 7 undefined on input line 195.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 [7
 
 ]
-Overfull \hbox (32.77074pt too wide) in paragraph at lines 209--211
+Overfull \hbox (32.77074pt too wide) in paragraph at lines 206--208
 []\T1/cmr/m/n/12 Il est aussi pos-sible d'en-re-gis-trer des sons en uti-li-san
 t la fonc-tion na-tive "sound.record"
  []
 
 
-Overfull \hbox (18.93547pt too wide) in paragraph at lines 209--211
+Overfull \hbox (18.93547pt too wide) in paragraph at lines 206--208
 \T1/cmr/m/n/12 On peut éga-le-ment re-jouer un son en-re-gis-tré en uti-li-sant
  la fonc-tion na-tive sound.replay
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
  []
 
 
@@ -816,112 +743,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-[8]
-Overfull \hbox (21.21951pt too wide) in paragraph at lines 229--230
-[]\T1/cmr/m/n/12 Vous pou-vez jouer un ou des sons sys-tème à l'aide de la fonc
--tion na-tive sound.system
- []
-
-[9]
+[8] [9] [10]
 Chapitre 4.
+[11
 
-LaTeX Warning: Citation `thymio2016' on page 10 undefined on input line 246.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 246.
-
-
-LaTeX Warning: Citation `thymio2016' on page 10 undefined on input line 249.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 249.
-
-[10
-
-] [11]
+] [12]
 Chapitre 5.
-
-LaTeX Warning: Citation `thymio2016' on page 12 undefined on input line 265.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 265.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
-
- []
-
-[12
+[13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 277.
 
- []
-
-[13]
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [14] [15]
 Chapitre 6.
-[14
+[16
 
-]
+] [17]
 Chapitre 7.
-No file 2emestage.bbl.
-[15
+[18
 
 ]
+No file 2emestage.bbl.
+[19]
 Chapitre 8.
-<pret.png, id=311, 852.786pt x 1174.3875pt>
+<pret.png, id=348, 852.786pt x 1174.3875pt>
 File: pret.png Graphic file (type png)
  <use pret.png>
-Package pdftex.def Info: pret.png used on input line 316.
+Package pdftex.def Info: pret.png used on input line 323.
 (pdftex.def)             Requested size: 376.42575pt x 518.3807pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
- [16
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
+ [20
 
 ]
 Overfull \vbox (109.85051pt too high) has occurred while \output is active []
 
 
-[17 <./pret.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
+[21 <./pret.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
  (./2emestage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `2emestage.out' has not changed.
-(rerunfilecheck)             Checksum: E8F641E5DA709A18378CA1BF6D6ADB81;3010.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
+(rerunfilecheck)             Checksum: 11D6A30CFE5DBCC988333E9E033B8E4C;3247.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  ) 
 Here is how much of TeX's memory you used:
- 8576 strings out of 494999
- 122082 string characters out of 6180228
+ 8604 strings out of 494999
+ 122778 string characters out of 6180228
  213558 words of memory out of 5000000
- 11613 multiletter control sequences out of 15000+600000
- 16693 words of font info for 43 fonts, out of 8000000 for 9000
+ 11629 multiletter control sequences out of 15000+600000
+ 17006 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,6n,32p,1051b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/
-gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/gaetan/.te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/gaetan/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/gaetan/.texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecbx2488.600pk> </home/gaetan/.texmf-var/fonts/pk/ljfour/jknapp
-en/ec/ecbx1200.600pk> </home/gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
-2074.600pk> </home/gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk
-> </home/gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
-Output written on 2emestage.pdf (22 pages, 2442162 bytes).
+ </home/gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/
+gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/gaetan/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/gaetan/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/gaetan/.texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecrm1200.600pk> </home/gaetan/.texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecbx2488.600pk> </home/gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
+1200.600pk> </home/gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk
+> </home/gaetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </home/g
+aetan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
+Output written on 2emestage.pdf (26 pages, 2449938 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 66 named destinations out of 1000 (max. 500000)
- 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 835 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 376 words of extra memory for PDF output out of 10000 (max. 10000000)
 
