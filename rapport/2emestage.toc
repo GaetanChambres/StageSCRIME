@@ -7,10 +7,10 @@
 \contentsline {section}{\numberline {1.2}Le contexte du stage}{2}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Pourquoi ce projet?}{2}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Les objectifs du stage}{3}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Contenu du rapport}{3}{section.1.3}
+\contentsline {section}{\numberline {1.3}Le contenu du rapport}{3}{section.1.3}
 \contentsline {chapter}{\numberline {2}Le Robot Thymio}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Pr\IeC {\'e}sentation \cite {PresThymio} }{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Philosophie d'un projet collaboratif \cite {PhiloThymio} }{4}{section.2.2}
+\contentsline {section}{\numberline {2.2}La philosophie d'un projet collaboratif \cite {PhiloThymio} }{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Les diff\IeC {\'e}rents acteurs du projet}{5}{section.2.3}
 \contentsline {section}{\numberline {2.4}Les engagements de la soci\IeC {\'e}t\IeC {\'e} cr\IeC {\'e}atrice}{6}{section.2.4}
 \contentsline {chapter}{\numberline {3}Les fonctionnalit\IeC {\'e}s de Thymio \pageref {thymio} concernant le son}{7}{chapter.3}
