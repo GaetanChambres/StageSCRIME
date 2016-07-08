@@ -2,59 +2,72 @@
 
 \bibitem{ForumThymio}
 Michael Bonani.
-\newblock Record sensor data continuously to external file.
-\newblock {\em
-  https://www.thymio.org/forum/t-706858/record-sensor-data-continuously-to-external-file},
-  2016.
+\newblock "record sensor data continuously to external file",
+  https://www.thymio.org/forum/t-706858/record-sensor-data-continuously-to-external-file.
+\newblock {\em .}, 2016.
 
 \bibitem{OSC2016}
 Open~Sound Control.
-\newblock Introduction to open sound control.
-\newblock {\em http://opensoundcontrol.org/introduction-osc}, 2016.
+\newblock "introduction to open sound control",
+  http://opensoundcontrol.org/introduction-osc.
+\newblock {\em .}, 2016.
 
 \bibitem{FragClasseThymio}
 Philippe GUILLEM.
-\newblock Fragments de classes - thymio en musique / arts et sciences à
-  l'école maternelle.
-\newblock {\em
-  http://fragmentsdeclasse.blogspot.fr/2016/02/2-thymio-mais-quils-sont-nombreux.html},
-  19/02/2016.
+\newblock "fragments de classes - thymio en musique / arts et sciences à
+  l'école maternelle",
+  http://fragmentsdeclasse.blogspot.fr/2016/02/2-thymio-mais-quils-sont-nombreux.html.
+\newblock {\em .}, 19/02/2016.
 
 \bibitem{ISCORE}
-I-score.
-\newblock I-score.
-\newblock {\em http://i-score.org/}, 2016.
+i~score.
+\newblock "i-score", http://i-score.org/.
+\newblock {\em .}, 2016.
 
 \bibitem{CodeASEBA}
 Stephane MAGNENAT.
-\newblock Code source de aseba.
-\newblock {\em https://github.com/aseba-community/aseba}, 2016.
+\newblock "code source de aseba", https://github.com/aseba-community/aseba.
+\newblock {\em .}, 2016.
 
 \bibitem{ManualASEBA}
 Stéphane MAGNENAT.
-\newblock Aseba - manuel de l'utilisateur.
-\newblock {\em http://mobots.epfl.ch/data/aseba/aseba-user-manual-fr.pdf},
-  2016.
+\newblock "aseba - manuel de l'utilisateur",
+  http://mobots.epfl.ch/data/aseba/aseba-user-manual-fr.pdf.
+\newblock {\em .}, 2016.
 
 \bibitem{SCRIME2016}
 SCRIME.
-\newblock Présentation du studio de création et de recherche en informatique
-  et musiques expérimentales.
-\newblock {\em http://scrime.labri.fr/le-scrime-2/}, 2016.
+\newblock "présentation du studio de création et de recherche en informatique
+  et musiques expérimentales", http://scrime.labri.fr/le-scrime-2/.
+\newblock {\em .}, 2016.
 
 \bibitem{PYO2016}
 Ajax~Sound Studio.
-\newblock Pyo - dedicated python module for digital signal processing.
-\newblock {\em http://ajaxsoundstudio.com/software/pyo/}, 2016.
+\newblock "pyo - dedicated python module for digital signal processing",
+  http://ajaxsoundstudio.com/software/pyo/.
+\newblock {\em .}, 2016.
+
+\bibitem{BLOCKLY16}
+Thymio.
+\newblock "blockly - programmation par blocks",
+  https://www.thymio.org/fr:blocklyprogramming.
+\newblock {\em .}, 2016.
 
 \bibitem{PhiloThymio}
 Thymio.
-\newblock Philosophie du projet thymio.
-\newblock {\em https://www.thymio.org/fr:thymiophilosophy}, 2016.
+\newblock "philosophie du projet thymio",
+  https://www.thymio.org/fr:thymiophilosophy.
+\newblock {\em .}, 2016.
 
 \bibitem{PresThymio}
 Thymio.
-\newblock Présentation de thymio.
-\newblock {\em https://www.thymio.org/fr:thymio}, 2016.
+\newblock "présentation de thymio", https://www.thymio.org/fr:thymio.
+\newblock {\em .}, 2016.
+
+\bibitem{VPL2016}
+Thymio.
+\newblock "vpl - programmation visuelle",
+  https://www.thymio.org/fr:visualprogramming.
+\newblock {\em .}, 2016.
 
 \end{thebibliography}

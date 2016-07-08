@@ -2,8 +2,8 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Domaine du Stage}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Le SCRIME}{1}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Les missions du SCRIME \pageref {SCRIME}}{1}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}L'\IeC {\'e}quipe du SCRIME \pageref {SCRIME}}{2}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.2}Les missions du SCRIME}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}L'\IeC {\'e}quipe du SCRIME}{2}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}Le contexte du stage}{2}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Pourquoi ce projet?}{2}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Les objectifs du stage}{3}{subsection.1.2.2}
@@ -13,20 +13,20 @@
 \contentsline {section}{\numberline {2.2}La philosophie d'un projet collaboratif \cite {PhiloThymio} }{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Les diff\IeC {\'e}rents acteurs du projet}{5}{section.2.3}
 \contentsline {section}{\numberline {2.4}Les engagements de la soci\IeC {\'e}t\IeC {\'e} cr\IeC {\'e}atrice}{6}{section.2.4}
-\contentsline {chapter}{\numberline {3}Les fonctionnalit\IeC {\'e}s de Thymio \pageref {thymio} concernant le son}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Les fonctionnalit\IeC {\'e}s natives de Thymio \pageref {thymio} }{7}{section.3.1}
+\contentsline {chapter}{\numberline {3}Les fonctionnalit\IeC {\'e}s de Thymio concernant le son}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Les fonctionnalit\IeC {\'e}s natives de Thymio }{7}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}L'intensit\IeC {\'e} sonore ambiante}{7}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}La synth\IeC {\`e}se sonore de Thymio \pageref {thymio}}{7}{section.3.2}
+\contentsline {section}{\numberline {3.2}La synth\IeC {\`e}se sonore de Thymio}{7}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}La g\IeC {\'e}n\IeC {\'e}ration de sons}{7}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}L'enregistrement et la relecture}{8}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}La lecture de "Sample"}{8}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}La lecture de "Samples"}{8}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}La cr\IeC {\'e}ation de son depuis un ordinateur}{8}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Les sons syst\IeC {\`e}me}{9}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}La biblioth\IeC {\`e}que de sons syst\IeC {\`e}me}{9}{subsection.3.2.6}
 \contentsline {section}{\numberline {3.3}Les limites}{9}{section.3.3}
-\contentsline {chapter}{\numberline {4}L'extension des possibilit\IeC {\'e}s sonores de Thymio \pageref {thymio} }{11}{chapter.4}
+\contentsline {chapter}{\numberline {4}L'extension des possibilit\IeC {\'e}s sonores de Thymio }{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}Les outils informatiques utilis\IeC {\'e}s}{11}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Le langage de programmation Aseba \pageref {aseba} }{11}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Le langage de programmation Aseba }{11}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Les outils ASEBA}{11}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}L'externalisation des \IeC {\'e}v\IeC {\'e}nements}{12}{section.4.2}
 \contentsline {chapter}{\numberline {5}La r\IeC {\'e}alisation de cette extension}{13}{chapter.5}

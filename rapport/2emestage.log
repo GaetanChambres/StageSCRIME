@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.22)  23 JUN 2016 18:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.22)  8 JUL 2016 02:53
 entering extended mode
 **C:/Users/GaÃ«tan/Desktop/StageSCRIME/rapport/2emestage.tex
 (C:/Users/GaÃ«tan/Desktop/StageSCRIME/rapport/2emestage.tex
@@ -761,23 +761,18 @@ Overfull \hbox (51.7841pt too wide) in paragraph at lines 190--191
 
 [6]
 Chapitre 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
-
 [7
 
 ]
-Overfull \hbox (32.77074pt too wide) in paragraph at lines 219--221
+Overfull \hbox (19.281pt too wide) in paragraph at lines 219--221
 []\T1/cmr/m/n/12 Il est aussi pos-sible d'en-re-gis-trer des sons en uti-li-san
-t la fonc-tion na-tive "sound.record"
+t la fonc-tion na-tive \T1/cmr/m/it/12 sound.record
  []
 
 
-Overfull \hbox (18.93547pt too wide) in paragraph at lines 219--221
+Overfull \hbox (17.99547pt too wide) in paragraph at lines 219--221
 \T1/cmr/m/n/12 On peut éga-le-ment re-jouer un son en-re-gis-tré en uti-li-sant
- la fonc-tion na-tive sound.replay
+ la fonc-tion na-tive \T1/cmr/m/it/12 sound.replay
  []
 
 
@@ -812,71 +807,92 @@ Chapitre 7.
 [18
 
 ] (C:\Users\GaÃ«tan\Desktop\StageSCRIME\rapport\2emestage.bbl [19]
-Underfull \hbox (badness 2503) in paragraph at lines 4--9
-[]\T1/cmr/m/n/12 Michael Bo-nani.  Re-cord sen-sor data conti-nuously to ex-ter
--nal file.
+Underfull \hbox (badness 1622) in paragraph at lines 4--8
+[]\T1/cmr/m/n/12 Michael Bo-nani.  "re-cord sen-sor data conti-nuously to ex-te
+r-nal file",
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\T1/cmr/m/it/12 https ://www.thymio.org/forum/t-706858/record-sensor-data-conti
-nuously-
+Underfull \hbox (badness 3679) in paragraph at lines 4--8
+\T1/cmr/m/n/12 https ://www.thymio.org/forum/t-706858/record-sensor-data-contin
+uously-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-[]\T1/cmr/m/n/12 Open Sound Control.  In-tro-duc-tion to open sound control.
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+[]\T1/cmr/m/n/12 Open Sound Control.  "in-tro-duc-tion to open sound control",
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
-[]\T1/cmr/m/n/12 Stéphane MA-GNE-NAT.  Aseba - ma-nuel de l'uti-li-sa-teur.
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+[]\T1/cmr/m/n/12 Philippe GUILLEM.  "frag-ments de classes - thy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+\T1/cmr/m/n/12 mio en mu-sique / arts et sciences à l'école ma-ter-nelle",
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+\T1/cmr/m/n/12 http ://fragmentsdeclasse.blogspot.fr/2016/02/2-thymio-mais-quil
+s-sont-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+[]\T1/cmr/m/n/12 Stéphane MA-GNE-NAT.  "aseba - ma-nuel de l'uti-li-sa-teur",
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+[]\T1/cmr/m/n/12 Thymio.  "blo-ckly - pro-gram-ma-tion par blocks",
  []
 
 ) [20
 
 ] [21
 
-] <Thymio_details.png, id=415, 2258.4375pt x 1447.65843pt>
+] <Thymio_details.png, id=405, 2258.4375pt x 1447.65843pt>
 File: Thymio_details.png Graphic file (type png)
 
 <use Thymio_details.png>
-Package pdftex.def Info: Thymio_details.png used on input line 341.
+Package pdftex.def Info: Thymio_details.png used on input line 343.
 (pdftex.def)             Requested size: 376.42575pt x 241.28317pt.
  [22
 
  <C:/Users/GaÃ«tan/Desktop/StageSCRIME/rapport/Thymio_details.png>]
-Overfull \hbox (44.75826pt too wide) in paragraph at lines 494--494
+Overfull \hbox (44.75826pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Objectif : externaliser les informations captées par les capt
 eurs du Thymio[] 
  []
 
 
-Overfull \hbox (20.06429pt too wide) in paragraph at lines 494--494
+Overfull \hbox (20.06429pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Solution -> Inscription des évènements en direct dans un fich
 ier texte,[] 
  []
 
 
-Overfull \hbox (69.45222pt too wide) in paragraph at lines 494--494
+Overfull \hbox (69.45222pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Il est nécessaire d'adapter le code édité dans ASEBA STUDIO p
 our l'utilisation.[] 
  []
 
 
-Overfull \hbox (26.23778pt too wide) in paragraph at lines 494--494
+Overfull \hbox (26.23778pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Dans cet exemple, dès qu'un capteur de proximité horizontale 
 est stimulé[] 
  []
 
 
-Overfull \hbox (38.58476pt too wide) in paragraph at lines 494--494
+Overfull \hbox (38.58476pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 (sa valeur dépasse 100), on envoi un évènement grâce à la fon
 ction "emit".[] 
  []
 
 
-Overfull \hbox (13.8908pt too wide) in paragraph at lines 494--494
+Overfull \hbox (13.8908pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Chaque évènement est un évènement global qu'il faut créer man
 uellement[] 
  []
@@ -884,151 +900,151 @@ uellement[]
 [23
 
 ]
-Overfull \hbox (38.58476pt too wide) in paragraph at lines 494--494
+Overfull \hbox (38.58476pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Ici c'est prox.horizontal qui donne les valeurs des capteurs 
 de proximité,[] 
  []
 
 
-Overfull \hbox (32.41127pt too wide) in paragraph at lines 494--494
+Overfull \hbox (32.41127pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Cet exemple est adaptable à tout code Aseba pilotant le thymi
 o, il suffit[] 
  []
 
 
-Overfull \hbox (1.54381pt too wide) in paragraph at lines 494--494
+Overfull \hbox (1.54381pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Son numéro d'évènement sera alors le nombre d'évènements diff
 érents,[] 
  []
 
 
-Overfull \hbox (1.54381pt too wide) in paragraph at lines 494--494
+Overfull \hbox (1.54381pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Constante NBR_STOP_EVENT :: Il s'agit du nombre de l'évènemen
 t final[] 
  []
 
 
-Overfull \hbox (1.54381pt too wide) in paragraph at lines 494--494
+Overfull \hbox (1.54381pt too wide) in paragraph at lines 496--496
 [] \T1/cmtt/m/n/12 proximité horizontale stimulé), + l'évènement final de press
 ion sur[] 
  []
 
 [24]
-Overfull \hbox (38.58476pt too wide) in paragraph at lines 494--494
+Overfull \hbox (38.58476pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 pensez a sauvegarder, ou utiliser un autre nom si vous souhai
 tez conserver[] 
  []
 
 
-Overfull \hbox (69.45222pt too wide) in paragraph at lines 494--494
+Overfull \hbox (69.45222pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 2- Déclaration du tableau ("array") de taille 11; du compteur
  ("cpt") du nombre[] 
  []
 
 
-Overfull \hbox (69.45222pt too wide) in paragraph at lines 494--494
+Overfull \hbox (69.45222pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 d'évènements traités; et de la date du dernier évènement trai
 té ("event_time").[] 
  []
 
 
-Overfull \hbox (57.10524pt too wide) in paragraph at lines 494--494
+Overfull \hbox (57.10524pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Le traitement se fait en boucle grâce au "while(array[2] != N
 BR_STOP_EVENT)".[] 
  []
 
 
-Overfull \hbox (7.7173pt too wide) in paragraph at lines 494--494
+Overfull \hbox (7.7173pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 La condition de la suite du traitement ("if(array[0] != event
 _time)")[] 
  []
 
 
-Overfull \hbox (20.06429pt too wide) in paragraph at lines 494--494
+Overfull \hbox (20.06429pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 est nécessaire pour éviter de traiter plusieurs fois le même 
 évènement.[] 
  []
 
 
-Overfull \hbox (13.8908pt too wide) in paragraph at lines 494--494
+Overfull \hbox (13.8908pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 que l'on souhaite appliquer doit être inséré. On utilisera le
 s données[] 
  []
 
 
-Overfull \hbox (38.58476pt too wide) in paragraph at lines 494--494
+Overfull \hbox (38.58476pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 A titre d'exemple, le reste du programme réécrit les données 
 relatives aux[] 
  []
 
 
-Overfull \hbox (20.06429pt too wide) in paragraph at lines 494--494
+Overfull \hbox (20.06429pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 évènements dans un fichier de sortie. Par gain de temps et/ou
  de place,[] 
  []
 
 [25]
-Overfull \hbox (63.27873pt too wide) in paragraph at lines 494--494
+Overfull \hbox (63.27873pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 2- Entrer la commande qui permet de se connecter en lecture a
 u port sur lequel[] 
  []
 
 
-Overfull \hbox (20.06429pt too wide) in paragraph at lines 494--494
+Overfull \hbox (20.06429pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 est connecté Thymio. Appuyer une seconde fois sur entrée pour
  récupérer[] 
  []
 
 
-Overfull \hbox (44.75826pt too wide) in paragraph at lines 494--494
+Overfull \hbox (44.75826pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 /!\ Cette commande ne sera entrée qu'une seule fois par sessi
 on de travail![] 
  []
 
 
-Overfull \hbox (7.7173pt too wide) in paragraph at lines 494--494
+Overfull \hbox (7.7173pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 3- Entrer la commande qui permet d'enregistrer les évènements
  générés[] 
  []
 
 
-Overfull \hbox (81.79921pt too wide) in paragraph at lines 494--494
+Overfull \hbox (81.79921pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Puis lancer Aseba Studio et ouvrir le fichier contenant le co
 de que l'on souhaite[] 
  []
 
 
-Overfull \hbox (106.49318pt too wide) in paragraph at lines 494--494
+Overfull \hbox (106.49318pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 4- Compiler puis lancer enfin le programme de traitement du t
 exte. Passer en argument[] 
  []
 
 
-Overfull \hbox (75.62572pt too wide) in paragraph at lines 494--494
+Overfull \hbox (75.62572pt too wide) in paragraph at lines 496--496
 [] \T1/cmtt/m/n/12 les noms des fichiers souhaités. S'ils n'existent pas, le pr
 ogramme les créera.[] 
  []
 
 
-Overfull \hbox (44.75826pt too wide) in paragraph at lines 494--494
+Overfull \hbox (44.75826pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Tout devrait alors fonctionner. Thymio devrait inscrire ces é
 vènements dans[] 
  []
 
 
-Overfull \hbox (50.93175pt too wide) in paragraph at lines 494--494
+Overfull \hbox (50.93175pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 <nom_du_fichier_log> alors que le programme "loop_read"_ lit 
 ce fichier pour[] 
  []
 
 
-Overfull \hbox (26.23778pt too wide) in paragraph at lines 494--494
+Overfull \hbox (26.23778pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 Le programme fonctionnera jusqu'à ce que l'on active l'"évène
 ment final"[] 
  []
 
 
-Overfull \hbox (20.06429pt too wide) in paragraph at lines 494--494
+Overfull \hbox (20.06429pt too wide) in paragraph at lines 496--496
 []\T1/cmtt/m/n/12 /!\ Pour relancer le programme a nouveau, il faut remonter à 
 l'étape 3.[] 
  []
@@ -1039,58 +1055,58 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (D:\Latex\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [26]
-Overfull \hbox (75.13011pt too wide) in paragraph at lines 503--505
+Overfull \hbox (75.13011pt too wide) in paragraph at lines 505--507
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 505.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 507.
 
 (D:\Latex\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 505.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 507.
 
-Overfull \hbox (39.88841pt too wide) in paragraph at lines 511--512
+Overfull \hbox (39.88841pt too wide) in paragraph at lines 513--514
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (46.93675pt too wide) in paragraph at lines 521--522
+Overfull \hbox (46.93675pt too wide) in paragraph at lines 523--524
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (53.98509pt too wide) in paragraph at lines 531--532
+Overfull \hbox (53.98509pt too wide) in paragraph at lines 533--534
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [27]
-Overfull \hbox (39.88841pt too wide) in paragraph at lines 552--553
+Overfull \hbox (39.88841pt too wide) in paragraph at lines 554--555
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (46.93675pt too wide) in paragraph at lines 559--560
+Overfull \hbox (46.93675pt too wide) in paragraph at lines 561--562
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (75.13011pt too wide) in paragraph at lines 563--564
+Overfull \hbox (75.13011pt too wide) in paragraph at lines 565--566
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (4.64671pt too wide) in paragraph at lines 564--565
+Overfull \hbox (4.64671pt too wide) in paragraph at lines 566--567
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[28] [29] <pret.png, id=566, 852.786pt x 1174.3875pt>
+[28] [29] <pret.png, id=556, 852.786pt x 1174.3875pt>
 File: pret.png Graphic file (type png)
  <use pret.png>
-Package pdftex.def Info: pret.png used on input line 610.
+Package pdftex.def Info: pret.png used on input line 612.
 (pdftex.def)             Requested size: 376.42575pt x 518.3807pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 612.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
  [30
 
 ]
@@ -1098,23 +1114,23 @@ Overfull \vbox (64.6871pt too high) has occurred while \output is active []
 
 
 [31 <C:/Users/GaÃ«tan/Desktop/StageSCRIME/rapport/pret.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 612.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
 
 (C:\Users\GaÃ«tan\Desktop\StageSCRIME\rapport\2emestage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 612.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 612.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 614.
 Package rerunfilecheck Info: File `2emestage.out' has not changed.
-(rerunfilecheck)             Checksum: A36D4E6AB7CFFA77331546D90E4A21E3;3309.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 612.
+(rerunfilecheck)             Checksum: E5DB866A629223A85CF3B7F1EF52C6BB;3295.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 614.
  ) 
 Here is how much of TeX's memory you used:
- 9010 strings out of 493921
- 124094 string characters out of 3154949
- 252693 words of memory out of 3000000
- 11963 multiletter control sequences out of 15000+200000
+ 9014 strings out of 493921
+ 124140 string characters out of 3154949
+ 252746 words of memory out of 3000000
+ 11965 multiletter control sequences out of 15000+200000
  17006 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,6n,51p,1138b,1904s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,51p,1155b,1904s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Gaï¿½tan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ectt1200.pk> <C:\Users\Gaï¿½tan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\ecti1200.pk> <C:\Users\Gaï¿½tan\AppData\Roaming\MiKTeX\2.9\font
@@ -1128,9 +1144,9 @@ our\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Gaï¿½tan\AppData\Local\MiKTeX\2.9
 \fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\Gaï¿½tan\AppData\Loc
 al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><D:/Latex/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 2emestage.pdf (36 pages, 2747456 bytes).
+Output written on 2emestage.pdf (36 pages, 2748206 bytes).
 PDF statistics:
- 1188 PDF objects out of 1200 (max. 8388607)
- 211 named destinations out of 1000 (max. 500000)
+ 1182 PDF objects out of 1200 (max. 8388607)
+ 213 named destinations out of 1000 (max. 500000)
  373 words of extra memory for PDF output out of 10000 (max. 10000000)
 
